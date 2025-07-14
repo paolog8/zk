@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "File explorer"
@@ -166,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "137483970c975406",
+  "active": "a1fc9754a0882757",
   "lastOpenFiles": [
     "Inbox/BORE Addresses Key Challenges in PV Fault Detection Systems.md",
     "Main_Notes/1.md",
