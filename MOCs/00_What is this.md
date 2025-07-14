@@ -1,0 +1,1 @@
+A place where I can organize notes and ideas, outline and structure writing projects.

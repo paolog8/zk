@@ -1,0 +1,28 @@
+{
+  "showpreview": true,
+  "lineClamp": 10,
+  "indents": 0,
+  "previewcontentslength": "200",
+  "ispreview": true,
+  "format": {
+    "frontmatter": true,
+    "bolditalic": true,
+    "highlight": true,
+    "codeblock": true,
+    "quote": true,
+    "blankline": true,
+    "title": true,
+    "firsth1": true,
+    "firsth2": false,
+    "customregex": []
+  },
+  "showImg": true,
+  "showFileProperties": false,
+  "ctimeFormat": "YYYY-MM-DD HH:mm:ss",
+  "mtimeFormat": "YYYY-MM-DD HH:mm:ss",
+  "propertiesFormat": "created at ctime, updated at mtime",
+  "excluded": [
+    "Reference_Notes",
+    "Inbox"
+  ]
+}
