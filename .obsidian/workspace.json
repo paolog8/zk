@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Solar PV Dominates Global Renewable Capacity Growth"
             }
+          },
+          {
+            "id": "398646669d03d575",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "File explorer"
+              "title": "Files"
             }
           },
           {
@@ -157,17 +172,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's note": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1fc9754a0882757",
+  "active": "398646669d03d575",
   "lastOpenFiles": [
+    "Reference_Notes/aggarwalOutlierAnalysis2017.md",
+    "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
+    "Inbox/Unsupervised Learning Enables Comprehensive PV Fault Detection.md",
+    "Inbox/Solar PV Dominates Global Renewable Capacity Growth.md",
     "Inbox/BORE Addresses Key Challenges in PV Fault Detection Systems.md",
     "Main_Notes/1.md",
     "Main_Notes/3c.md",
@@ -178,16 +197,13 @@
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Inbox/BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
     "Inbox/Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
-    "Inbox/Solar PV Dominates Global Renewable Capacity Growth.md",
     "Inbox/Definition of normal data in pv fault detection systems.md",
     "Inbox/2. What should guide the choice of algorithms to include in an ensemble.md",
     "Inbox/1. Outliers are subjective.md",
     "Inbox/BORE is suitable for PV fault detection.md",
     "Inbox/PV fault detection as outlier analysis.md",
     "Inbox/Untitled 2.md",
-    "Reference_Notes/aggarwalOutlierAnalysis2017.md",
     "Inbox/Untitled 1.md",
-    "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
     "Untitled.canvas",
     "MOCs/00_What is this.md",
     "MOCs",
@@ -202,7 +218,6 @@
     "References",
     "Welcome.md",
     "Main_Notes",
-    "References/aggarwal_2016.md",
     "Reference_Notes"
   ]
 }
