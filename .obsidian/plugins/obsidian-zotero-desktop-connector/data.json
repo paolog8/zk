@@ -8,7 +8,7 @@
     {
       "name": "Cite LaTeX ",
       "format": "latex",
-      "command": "citep"
+      "command": "citep[]"
     }
   ],
   "exportFormats": [
