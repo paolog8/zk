@@ -3,7 +3,7 @@
   "lineClamp": 10,
   "indents": 0,
   "previewcontentslength": "200",
-  "ispreview": true,
+  "ispreview": false,
   "format": {
     "frontmatter": true,
     "bolditalic": true,
