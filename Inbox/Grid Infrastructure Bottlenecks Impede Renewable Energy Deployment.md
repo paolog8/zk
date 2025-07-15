@@ -10,4 +10,3 @@ Inadequate investment in grid infrastructure is a critical bottleneck for accele
 - Connects to: [[Renewable Energy Deployment Challenges]]
 - Connects to: [[Power Grid Modernization]]
 - Connects to: [[Energy System Flexibility]]
-
