@@ -1,10 +1,10 @@
-# Supervised PV Fault Detection Models Suffer from Overfitting Due to Incomplete Datasets
-
 Tags: #machinelearning, #overfitting, #PVsystems
 
-A primary drawback of using supervised learning for PV fault detection is the high risk of model overfitting. This occurs when the model learns the training data too well, including its noise and biases, because the dataset is not diverse enough to represent all possible real-world scenarios.
+A primary drawback of using supervised learning for PV fault detection is the high risk of model overfitting. 
+This occurs when the model learns the training data too well, including its noise and biases, because the dataset is not diverse enough to represent all possible real-world scenarios.
 
-This overfitting leads to poor generalization, meaning the model fails to accurately identify faults it has not explicitly seen during training. As a result, the system's reliability is compromised, often producing high rates of false positives or negatives when deployed in a live operational environment.
+This overfitting leads to poor generalization, meaning the model fails to accurately identify faults it has not explicitly seen during training. 
+As a result, the system's reliability is compromised, often producing high rates of false positives or negatives when deployed in a live operational environment.
 
 ## Sources
 

@@ -1,10 +1,10 @@
-# Hybrid Learning Models Enhance Adaptability in PV Fault Detection
-
 Tags: #hybridmodels, #reinforcementlearning, #PVsystems
 
-To move beyond the static nature of traditional supervised learning, hybrid algorithms are emerging as a more adaptive solution for PV fault detection. These models combine different learning paradigms, such as supervised learning with reinforcement learning.
+To move beyond the static nature of traditional supervised learning, hybrid algorithms are emerging as a more adaptive solution for PV fault detection. 
+These models combine different learning paradigms, such as supervised learning with reinforcement learning.
 
-This combination allows the system to learn from labeled data while also dynamically adjusting its behavior based on real-time data streams and feedback (rewards). This reduces the strict requirement for a comprehensive, pre-existing labeled dataset and enables the fault detection system to evolve and fine-tune its performance over time.
+This combination allows the system to learn from labeled data while also dynamically adjusting its behavior based on real-time data streams and feedback (rewards). 
+This reduces the strict requirement for a comprehensive, pre-existing labeled dataset and enables the fault detection system to evolve and fine-tune its performance over time.
 
 ## Sources
 
@@ -20,3 +20,4 @@ This combination allows the system to learn from labeled data while also dynamic
 - Connects to: [[AI-Based Diagnostics Enhance PV System Reliability Through Early Fault Detection]] (Hybrid models represent a sophisticated form of AI-based diagnostics).
     
 - Potential future connections: How is the reward function in a reinforcement learning model for PV fault detection typically defined?
+- Can be added to a section on alternative use of hybrid models in pv fault detection, with my BORE approach being one of them. I have to explain the differences and benefits/drawbacks

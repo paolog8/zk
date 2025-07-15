@@ -1,10 +1,9 @@
-# Generative Models Augment Scarce Datasets for PV Fault Detection
-
 Tags: #GANs, #syntheticdata, #PVsystems
 
 Generative models, particularly Generative Adversarial Networks (GANs), offer an innovative solution to the problem of data scarcity in PV fault detection. These models can learn the underlying distribution of existing fault data and generate new, artificial data points that are realistically similar.
 
-This synthetic data can then be used to supplement limited real-world datasets. By augmenting the training data in this way, supervised models can be trained more effectively, leading to improved robustness and better performance when faced with the wide variability of fault conditions in PV systems.
+This synthetic data can then be used to supplement limited real-world datasets. 
+By augmenting the training data in this way, supervised models can be trained more effectively, leading to improved robustness and better performance when faced with the wide variability of fault conditions in PV systems.
 
 ## Sources
 

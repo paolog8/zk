@@ -1,10 +1,10 @@
-# Supervised Learning for PV Fault Detection is Limited by Labeled Data Dependency
-
 Tags: #PVsystems, #supervisedlearning, #dataset
 
-While supervised machine learning is a powerful approach for fault detection in photovoltaic (PV) systems, its effectiveness is fundamentally constrained by its dependence on large, well-labeled datasets. The process of collecting and accurately labeling data for the myriad of potential faults is both costly and labor-intensive.
+While supervised machine learning is a powerful approach for fault detection in photovoltaic systems, its effectiveness is fundamentally constrained by its dependence on large, well-labeled datasets. 
+The process of collecting and accurately labeling data for the myriad of potential faults is both costly and labor-intensive.
 
-This dependency creates a significant practical bottleneck. The difficulty in obtaining comprehensive labeled datasets that cover all operational and environmental conditions limits the real-world efficacy and reliability of purely supervised fault detection models.
+This dependency creates a significant practical bottleneck. 
+The difficulty in obtaining comprehensive labeled datasets that cover all operational and environmental conditions limits the real-world efficacy and reliability of purely supervised fault detection models.
 
 ## Sources
 
