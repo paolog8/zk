@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+                "file": "Inbox/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -189,9 +189,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01796c2ba40d8e25",
+  "active": "c89b24a90d04a682",
   "lastOpenFiles": [
+    "Inbox/Ensemble Learning Improves Robustness in PV Fault Detection.md",
     "Inbox/Untitled.md",
+    "Inbox/Autoencoders Can Mitigate High Dimensionality in PV Data.md",
+    "Inbox/Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
+    "Inbox/Sensor Noise in PV Systems Can Mimic Fault Signatures.md",
+    "Inbox/Complex Interdependencies in PV Sensor Data Require Non-Linear Models.md",
+    "Inbox/Curse of Dimensionality in PV System Data.md",
+    "Inbox/High Data Dimensionality and Complexity Challenge ML in PV Fault Detection.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Inbox/Hybrid Models Improve PV Fault Detection Accuracy.md",
     "Inbox/High Rate of False Negatives in Unsupervised PV Fault Detection.md",
@@ -210,13 +217,6 @@
     "Inbox/Hybrid Models Combine Unsupervised and Supervised Learning for Robust PV Fault Detection.md",
     "Inbox/Computational Cost Can Limit Real-Time Application of Unsupervised PV Fault Detection.md",
     "Inbox/High False Positive Rate is a Key Limitation of Unsupervised PV Fault Detection.md",
-    "Inbox/Unsupervised Learning Excels at Identifying Novel or Undocumented PV Faults.md",
-    "Inbox/Common Unsupervised Techniques for PV Fault Detection.md",
-    "Inbox/Unsupervised ML in PV Systems Detects Faults by Identifying Anomalies from a Normal Baseline.md",
-    "Inbox/Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity.md",
-    "Inbox/Non-Supervised Methods Offer an Adaptive Alternative to Supervised PV Fault Detection.md",
-    "Inbox/Dynamic Nature of PV Systems Necessitates Costly Model Retraining.md",
-    "Inbox/Manual Data Labeling for PV Faults Incurs Significant Costs.md",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",
