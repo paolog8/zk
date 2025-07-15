@@ -23,7 +23,7 @@
         - Limitations in [[Fault Interpretability]] and [[Fault Type Classification]].
         - Problem of distinguishing [[Critical Faults vs. Normal Variations]].
 
-## 3. The Gap & The Need for Hybrid Approaches
+## ~~3. The Gap & The Need for Hybrid Approaches~~
 - **Identifying the Research Gap:**
     - Need for methods bridging [[Data Scarcity]] and demand for [[Actionable Fault Diagnostics]].
 - **Introduction to Semi-Supervised Learning:**
