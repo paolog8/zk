@@ -1,5 +1,5 @@
 # Introduction
-## 1. Broad Context & Problem Statement
+## ~~1. Broad Context & Problem Statement~~
 
 - **The Big Picture:**
     - Increasing reliance on complex industrial systems and critical infrastructure.
@@ -9,7 +9,7 @@
 - **Importance of System Health & Reliability:**
     - Consequences of undetected faults: [[Economic Losses]], [[Safety Hazards]], [[Reduced Efficiency]], [[Environmental Impact]].
     - Crucial role of [[Effective Fault Detection]] for operational efficiency and failure prevention.
-## 2. Specific Challenges in Fault Detection
+## ~~2. Specific Challenges in Fault Detection~~
 - **Data Characteristics Challenges:**
     - [[Scarcity of Labeled Fault Data]] (rare events).
     - [[High Dimensionality and Complexity of Sensor Data]].

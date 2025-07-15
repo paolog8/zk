@@ -31,14 +31,10 @@
             "id": "c89b24a90d04a682",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
         ]
@@ -115,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
@@ -191,15 +186,20 @@
   },
   "active": "c89b24a90d04a682",
   "lastOpenFiles": [
-    "Inbox/Ensemble Learning Improves Robustness in PV Fault Detection.md",
     "Inbox/Untitled.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Inbox/Scarcity of Labeled Data Hinders Advanced ML Adoption in PV Systems.md",
+    "Inbox/Inadequate Training Data Limits ML Model Effectiveness in PV Fault Detection.md",
+    "Inbox/Variable PV System Topology Complicates Fault Detection.md",
+    "Inbox/Dynamic Operating Conditions in PV Systems Cause False Positives.md",
+    "Inbox/Heterogeneous Data from PV Systems Challenges Traditional ML Models.md",
+    "Inbox/Ensemble Learning Improves Robustness in PV Fault Detection.md",
     "Inbox/Autoencoders Can Mitigate High Dimensionality in PV Data.md",
     "Inbox/Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
     "Inbox/Sensor Noise in PV Systems Can Mimic Fault Signatures.md",
     "Inbox/Complex Interdependencies in PV Sensor Data Require Non-Linear Models.md",
     "Inbox/Curse of Dimensionality in PV System Data.md",
     "Inbox/High Data Dimensionality and Complexity Challenge ML in PV Fault Detection.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Inbox/Hybrid Models Improve PV Fault Detection Accuracy.md",
     "Inbox/High Rate of False Negatives in Unsupervised PV Fault Detection.md",
     "Inbox/High Rate of False Positives in Unsupervised PV Fault Detection.md",
@@ -212,11 +212,6 @@
     "Inbox/Overlapping Fault Signatures Complicate PV Anomaly Classification.md",
     "Inbox/Fault Classification Challenges in Unsupervised PV Monitoring.md",
     "Inbox/Poor ML Interpretability in PV Systems Leads to Inefficient Maintenance.md",
-    "Inbox/Interpretability Gap in Unsupervised Models for PV Faults.md",
-    "Inbox/Unsupervised ML for PV Fault Detection Lacks Interpretability and Classification.md",
-    "Inbox/Hybrid Models Combine Unsupervised and Supervised Learning for Robust PV Fault Detection.md",
-    "Inbox/Computational Cost Can Limit Real-Time Application of Unsupervised PV Fault Detection.md",
-    "Inbox/High False Positive Rate is a Key Limitation of Unsupervised PV Fault Detection.md",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",
