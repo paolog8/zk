@@ -22,6 +22,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "dcd998a8db6922d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c89b24a90d04a682",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+                "file": "Inbox/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -169,15 +189,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01796c2ba40d8e25",
+  "active": "c89b24a90d04a682",
   "lastOpenFiles": [
+    "Inbox/Hybrid Learning Models Enhance Adaptability in PV Fault Detection.md",
+    "Inbox/Generative Models Augment Scarce Datasets for PV Fault Detection.md",
+    "Inbox/Semi-Supervised Learning Reduces Labeled Data Dependency in PV Fault Detection.md",
+    "Inbox/Supervised PV Fault Detection Models Suffer from Overfitting Due to Incomplete Datasets.md",
+    "Inbox/Supervised Learning for PV Fault Detection is Limited by Labeled Data Dependency.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Inbox/Untitled.md",
     "Inbox/Thermal Imaging Provides an Alternative Data Source for PV Fault Detection.md",
     "Inbox/Digital Twins Can Generate Synthetic Data to Train PV Fault Detection Models.md",
     "Inbox/Unsupervised Learning Mitigates Labeled Data Scarcity in PV Fault Detection.md",
     "Inbox/Poor Generalization in PV Fault Models is a Consequence of Labeled Data Scarcity.md",
     "Inbox/Scarcity of Labeled Data Impedes PV Fault Detection Model Development.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Inbox/Scite_ strategy to understand papers.md",
     "Inbox/AI-Based Diagnostics Enhance PV System Reliability Through Early Fault Detection.md",
     "Inbox/Untitled 1.md",
@@ -193,11 +218,6 @@
     "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
     "Workflow.md",
     "concatenated_notes.txt",
-    "Inbox/Untitled 2.md",
-    "Inbox/Untitled 3.md",
-    "Inbox/Untitled 4.md",
-    "Inbox/PV System Monitoring Ensures Compliance with Warranty Conditions.md",
-    "Inbox/Proactive Monitoring Data Informs Strategic PV Investment Decisions.md",
     "Untitled.canvas",
     "MOCs",
     "Inbox",
