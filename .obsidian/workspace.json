@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
             }
           },
           {
@@ -189,10 +189,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c89b24a90d04a682",
+  "active": "01796c2ba40d8e25",
   "lastOpenFiles": [
-    "Inbox/Hybrid Models for PV Fault Detection and Classification.md",
     "Inbox/Untitled.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Inbox/Hybrid Models Improve PV Fault Detection Accuracy.md",
+    "Inbox/High Rate of False Negatives in Unsupervised PV Fault Detection.md",
+    "Inbox/High Rate of False Positives in Unsupervised PV Fault Detection.md",
+    "Inbox/Unsupervised Models May Miss Subtle Incipient Faults in PV Systems.md",
+    "Inbox/Normal PV Operational Variations Can Mimic Faults.md",
+    "Inbox/Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
+    "Inbox/Hybrid Models for PV Fault Detection and Classification.md",
     "Inbox/Deep Learning Autoencoders Can Enhance Feature Extraction for PV Fault Detection.md",
     "Inbox/Environmental Factors Complicate PV Fault Classification.md",
     "Inbox/Overlapping Fault Signatures Complicate PV Anomaly Classification.md",
@@ -210,13 +217,6 @@
     "Inbox/Non-Supervised Methods Offer an Adaptive Alternative to Supervised PV Fault Detection.md",
     "Inbox/Dynamic Nature of PV Systems Necessitates Costly Model Retraining.md",
     "Inbox/Manual Data Labeling for PV Faults Incurs Significant Costs.md",
-    "Inbox/Data Acquisition for PV Faults is Complex and Resource-Intensive.md",
-    "Inbox/Data Acquisition and Labeling Costs Challenge Supervised ML in PV Fault Detection.md",
-    "Inbox/Hybrid Learning Models Enhance Adaptability in PV Fault Detection.md",
-    "Inbox/Generative Models Augment Scarce Datasets for PV Fault Detection.md",
-    "Inbox/Semi-Supervised Learning Reduces Labeled Data Dependency in PV Fault Detection.md",
-    "Inbox/Supervised PV Fault Detection Models Suffer from Overfitting Due to Incomplete Datasets.md",
-    "Inbox/Supervised Learning for PV Fault Detection is Limited by Labeled Data Dependency.md",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",
