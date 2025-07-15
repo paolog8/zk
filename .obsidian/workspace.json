@@ -11,10 +11,14 @@
             "id": "55a59a4fbb791957",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#RenewableEnergy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment"
             }
           },
           {
@@ -163,22 +168,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1fc9754a0882757",
+  "active": "55a59a4fbb791957",
   "lastOpenFiles": [
-    "Inbox/Solar PV Dominates Global Renewable Capacity Growth.md",
-    "Inbox/Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
-    "Inbox/BORE Addresses Key Challenges in PV Fault Detection Systems.md",
+    "Main_Notes/4a - China dominates solar and wind deployment.md",
+    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
+    "Main_Notes/3c - Different reading intent leads to different notes.md",
+    "Main_Notes/3b - Reading intent is based on your expertise level.md",
+    "Main_Notes/3a - Flashcards should evolve as your expertise increases.md",
+    "Main_Notes/3 - Experts use tools approprately.md",
+    "Main_Notes/2 - To be a fact, it must be reproducible.md",
+    "Main_Notes/1 - Writing down ideas gives them substance.md",
     "Inbox/Unsupervised Learning Enables Comprehensive PV Fault Detection.md",
+    "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
     "Inbox/BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
+    "Inbox/BORE Addresses Key Challenges in PV Fault Detection Systems.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Reference_Notes/aggarwalOutlierAnalysis2017.md",
     "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
-    "Main_Notes/1.md",
-    "Main_Notes/3c.md",
-    "Main_Notes/3b.md",
-    "Main_Notes/3a.md",
-    "Main_Notes/3.md",
-    "Main_Notes/2.md",
     "Inbox/Definition of normal data in pv fault detection systems.md",
     "Inbox/2. What should guide the choice of algorithms to include in an ensemble.md",
     "Inbox/1. Outliers are subjective.md",
@@ -198,7 +204,6 @@
     "Reference_Notes/silvermanDurabilityResearchPivotal2025.md",
     "Reference_Notes/references.bib",
     "References",
-    "Welcome.md",
     "Main_Notes",
     "Reference_Notes"
   ]

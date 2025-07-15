@@ -3,9 +3,9 @@
 
 - **The Big Picture:**
     - Increasing reliance on complex industrial systems and critical infrastructure.
-	    - [[Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment]]
+	    - [[4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment]]
     - Growth of renewable energy sources, specifically [[Photovoltaic (PV) Power Plants]].
-	    - [[Solar PV Dominates Global Renewable Capacity Growth]]
+	    - [[4 - Solar PV Dominates Global Renewable Capacity Growth]]
 - **Importance of System Health & Reliability:**
     - Consequences of undetected faults: [[Economic Losses]], [[Safety Hazards]], [[Reduced Efficiency]], [[Environmental Impact]].
     - Crucial role of [[Effective Fault Detection]] for operational efficiency and failure prevention.
