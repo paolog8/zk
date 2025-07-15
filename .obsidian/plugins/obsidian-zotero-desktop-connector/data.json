@@ -6,6 +6,11 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
+      "name": "Cite Formatted",
+      "format": "formatted-citation",
+      "cslStyle": "norsk-apa-manual"
+    },
+    {
       "name": "Cite LaTeX ",
       "format": "latex",
       "command": "citep[]"

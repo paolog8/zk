@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11bfaf622f596168",
+        "id": "432e220f2f05a223",
         "type": "tabs",
         "children": [
           {
-            "id": "a28b739a71ad79c8",
+            "id": "01796c2ba40d8e25",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,12 +163,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a28b739a71ad79c8",
+  "active": "01796c2ba40d8e25",
   "lastOpenFiles": [
+    "Inbox/Scite_ strategy to understand papers.md",
+    "Inbox/AI-Based Diagnostics Enhance PV System Reliability Through Early Fault Detection.md",
+    "Inbox/Untitled 1.md",
+    "Inbox/Sensor Fusion.md",
+    "Inbox/Variable Environmental Conditions Can Mask PV System Faults.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Inbox/Accurate nowcasting helps unmasking PV system faults.md",
+    "Inbox/Nowcasting with limited data.md",
+    "Inbox/Undetected PV Faults Can Create Significant Safety Hazards.md",
+    "Inbox/Undetected PV Faults Cause Economic Losses by Reducing Energy Yield.md",
+    "Inbox/Open-Circuit and Shading Faults Lead to Significant Power Loss in PV Systems.md",
+    "Inbox/PV System Faults Originate from Hardware, Inverter, and Connection Failures.md",
+    "Inbox/Undetected Faults Degrade PV System Health and Reliability.md",
     "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
     "Workflow.md",
     "concatenated_notes.txt",
-    "Inbox/Untitled 1.md",
     "Inbox/Untitled 2.md",
     "Inbox/Untitled 3.md",
     "Inbox/Untitled 4.md",
@@ -180,17 +192,6 @@
     "Inbox/Proactive Monitoring Optimizes Photovoltaic System Performance.md",
     "Main_Notes/4a - China dominates solar and wind deployment.md",
     "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
-    "Main_Notes/3c - Different reading intent leads to different notes.md",
-    "Main_Notes/3b - Reading intent is based on your expertise level.md",
-    "Main_Notes/3a - Flashcards should evolve as your expertise increases.md",
-    "Main_Notes/3 - Experts use tools approprately.md",
-    "Main_Notes/2 - To be a fact, it must be reproducible.md",
-    "Main_Notes/1 - Writing down ideas gives them substance.md",
-    "Inbox/BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
-    "Inbox/BORE Addresses Key Challenges in PV Fault Detection Systems.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
-    "Reference_Notes/aggarwalOutlierAnalysis2017.md",
-    "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
     "Untitled.canvas",
     "MOCs",
     "Inbox",
