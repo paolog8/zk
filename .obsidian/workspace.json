@@ -8,17 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "405df3478e3323de",
+            "id": "caf97677f1ec0cff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8386c0a45136ebd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03bc9c15c7fa303d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_moc_sources_staging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_moc_sources_staging"
             }
           }
         ]
@@ -78,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5110359191895,
-    "collapsed": true
+    "width": 323.51103591918945
   },
   "right": {
     "id": "0adf995372bac3e5",
@@ -169,16 +188,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "405df3478e3323de",
+  "active": "03bc9c15c7fa303d",
   "lastOpenFiles": [
-    "Inbox/Untitled.md",
-    "_moc_sources_staging.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "MOCs/MOC part 1-2 flattened.md",
+    "_moc_sources_staging.md",
+    "_moc_sources_staging.bak.md",
+    "_moc_sources_staging.md.bak",
+    "Main_Notes/4c1a8g - Scarce Labeled Data Drives Adoption of Hybrid Learning in PV Fault Detection.md",
+    "Inbox/Untitled.md",
     "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
     "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
     "Main_Notes/4c1a5b2 - Poor ML Interpretability in PV Systems Leads to Inefficient Maintenance.md",
-    "Main_Notes/4c1a8g - Scarce Labeled Data Drives Adoption of Hybrid Learning in PV Fault Detection.md",
     "Main_Notes/4c1a14 - Hybrid Models Combine Unsupervised and Supervised Learning for Robust PV Fault Detection.md",
     "Main_Notes/4c1a8p - Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity.md",
     "Main_Notes/4c1a8o - Unsupervised Learning Mitigates Labeled Data Scarcity in PV Fault Detection.md",
@@ -197,16 +219,12 @@
     "Main_Notes/4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
     "generate_moc_text.py",
     "Untitled",
-    "Main_Notes/3d20 - Visualization Tools are Essential for Human-ML Collaboration.md",
-    "Main_Notes/4c1a23 - Variable PV System Topology Complicates Fault Detection.md",
-    "Main_Notes/4c3 - Variable Environmental Conditions Can Mask PV System Faults.md",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",
     "Inbox",
     "Reference_Notes/My Library.bib",
     "Reference_Notes/Zotero_Library.bib",
-    "ZoteroLibrary.bib",
-    "Reference_Notes/references.bib"
+    "ZoteroLibrary.bib"
   ]
 }
