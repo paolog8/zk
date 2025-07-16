@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "432e220f2f05a223",
+        "id": "e8ea88fad2975e73",
         "type": "tabs",
         "children": [
           {
-            "id": "01796c2ba40d8e25",
+            "id": "f056e5cd3a3dca9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+                "file": "Main_Notes/4d1a - Undetected Faults Degrade PV System Health and Reliability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
+              "title": "4d1a - Undetected Faults Degrade PV System Health and Reliability"
             }
           }
         ]
@@ -168,16 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01796c2ba40d8e25",
+  "active": "f056e5cd3a3dca9a",
   "lastOpenFiles": [
-    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Main_Notes/4c1a1a - Curse of Dimensionality in PV System Data.md",
+    "MOC_Aggregated_Content.md",
+    "Main_Notes/3d14 - Hybrid Human-ML Systems are Necessary for Complex PV Faults.md",
+    "MOCs/filled_text.md",
+    "Main_Notes/4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
+    "generate_moc_text.py",
+    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
     "Untitled",
     "Main_Notes/3d20 - Visualization Tools are Essential for Human-ML Collaboration.md",
     "Main_Notes/4c1a23 - Variable PV System Topology Complicates Fault Detection.md",
     "Main_Notes/4c3 - Variable Environmental Conditions Can Mask PV System Faults.md",
     "Inbox/Untitled.md",
-    "Main_Notes/4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
     "Main_Notes/4c1b3a - Unsupervised Models May Miss Subtle Incipient Faults in PV Systems.md",
     "Main_Notes/4c1a22 - Unsupervised ML in PV Systems Detects Faults by Identifying Anomalies from a Normal Baseline.md",
     "Main_Notes/4c1a8p - Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity.md",
@@ -193,10 +198,6 @@
     "Main_Notes/4c1a8m - Supervised PV Fault Detection Models Suffer from Overfitting Due to Incomplete Datasets.md",
     "Main_Notes/4c1a8l - Supervised Learning for PV Fault Detection is Limited by Labeled Data Dependency.md",
     "Main_Notes/4c1b2c - Sensor Noise in PV Systems Can Mimic Fault Signatures.md",
-    "Main_Notes/4c1a3b - Sensor Fusion.md",
-    "Main_Notes/4c1a8k - Semi-Supervised Learning Reduces Labeled Data Dependency in PV Fault Detection.md",
-    "Main_Notes/4c1a8j - Semi-Supervised Learning Improves Accuracy by Generalizing from Unlabeled Data.md",
-    "Main_Notes/5 - Scite_ strategy to understand papers.md",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",
@@ -205,7 +206,6 @@
     "Reference_Notes/Zotero_Library.bib",
     "ZoteroLibrary.bib",
     "Reference_Notes/references.bib",
-    "References",
-    "Main_Notes"
+    "References"
   ]
 }
