@@ -22,6 +22,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "d6110ea4ea01511e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dcf967777a59d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_moc_sources_staging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_moc_sources_staging"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5110359191895
+    "width": 580.5110359191895,
+    "collapsed": true
   },
   "right": {
     "id": "0adf995372bac3e5",
@@ -170,34 +191,35 @@
   },
   "active": "07e3adb4a59a22ea",
   "lastOpenFiles": [
+    "_moc_sources_staging.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
+    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
+    "Main_Notes/4c1a5b2 - Poor ML Interpretability in PV Systems Leads to Inefficient Maintenance.md",
+    "Main_Notes/4c1a8g - Scarce Labeled Data Drives Adoption of Hybrid Learning in PV Fault Detection.md",
+    "Main_Notes/4c1a14 - Hybrid Models Combine Unsupervised and Supervised Learning for Robust PV Fault Detection.md",
+    "Main_Notes/4c1a8p - Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity.md",
+    "Main_Notes/4c1a8o - Unsupervised Learning Mitigates Labeled Data Scarcity in PV Fault Detection.md",
+    "Main_Notes/4c1a8n - Transfer Learning Mitigates Data Scarcity in PV Fault Detection.md",
+    "Main_Notes/4c1a8i - Scarcity of Labeled Data Impedes PV Fault Detection Model Development.md",
+    "Main_Notes/4c1a8d - Inadequate Training Data Limits ML Model Effectiveness in PV Fault Detection.md",
+    "Main_Notes/4c1a8 - Data Acquisition and Labeling Costs Challenge Supervised ML in PV Fault Detection.md",
+    "Main_Notes/4c1a7b - Proactive Monitoring Enables Predictive Maintenance for PV Systems.md",
+    "Main_Notes/4d1a2 - Undetected PV Faults Cause Economic Losses by Reducing Energy Yield.md",
+    "MOCs/filled_text.md",
     "GEMINI.md",
     "Main_Notes/4d1a - Undetected Faults Degrade PV System Health and Reliability.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Main_Notes/4c1a1a - Curse of Dimensionality in PV System Data.md",
     "MOC_Aggregated_Content.md",
     "Main_Notes/3d14 - Hybrid Human-ML Systems are Necessary for Complex PV Faults.md",
-    "MOCs/filled_text.md",
     "Main_Notes/4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
     "generate_moc_text.py",
-    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
     "Untitled",
     "Main_Notes/3d20 - Visualization Tools are Essential for Human-ML Collaboration.md",
     "Main_Notes/4c1a23 - Variable PV System Topology Complicates Fault Detection.md",
     "Main_Notes/4c3 - Variable Environmental Conditions Can Mask PV System Faults.md",
     "Inbox/Untitled.md",
-    "Main_Notes/4c1b3a - Unsupervised Models May Miss Subtle Incipient Faults in PV Systems.md",
-    "Main_Notes/4c1a22 - Unsupervised ML in PV Systems Detects Faults by Identifying Anomalies from a Normal Baseline.md",
-    "Main_Notes/4c1a8p - Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity.md",
-    "Main_Notes/4c1a5b3 - Unsupervised ML for PV Fault Detection Lacks Interpretability and Classification.md",
-    "Main_Notes/4c1a8o - Unsupervised Learning Mitigates Labeled Data Scarcity in PV Fault Detection.md",
-    "Main_Notes/4c1a21 - Unsupervised Learning Excels at Identifying Novel or Undocumented PV Faults.md",
-    "Main_Notes/4c1a20 - Unsupervised Learning Enables Comprehensive PV Fault Detection.md",
-    "Main_Notes/4d1a2 - Undetected PV Faults Cause Economic Losses by Reducing Energy Yield.md",
-    "Main_Notes/4d1a1 - Undetected PV Faults Can Create Significant Safety Hazards.md",
-    "Main_Notes/4c1a8n - Transfer Learning Mitigates Data Scarcity in PV Fault Detection.md",
-    "Main_Notes/4c1a19 - Thermal Imaging Provides an Alternative Data Source for PV Fault Detection.md",
-    "Main_Notes/4c1a8m - Supervised PV Fault Detection Models Suffer from Overfitting Due to Incomplete Datasets.md",
-    "Main_Notes/4c1a8l - Supervised Learning for PV Fault Detection is Limited by Labeled Data Dependency.md",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",
@@ -205,7 +227,6 @@
     "Reference_Notes/My Library.bib",
     "Reference_Notes/Zotero_Library.bib",
     "ZoteroLibrary.bib",
-    "Reference_Notes/references.bib",
-    "References"
+    "Reference_Notes/references.bib"
   ]
 }

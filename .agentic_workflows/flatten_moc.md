@@ -1,26 +1,48 @@
-To the LLM Agent: Flattening MOCs by Embedding Note Content
+To the LLM Agent: Flattening MOCs by Embedding Note Content (Iterative Process with Backup & Indentation Refinement)
 
-Your task is to flatten an existing Map of Content (MOC) by replacing all internal note links with the actual content of the linked notes. This process involves specific content filtering and aggregation.
+Your task is to iteratively flatten an existing Map of Content (MOC) by replacing internal note links with the actual content of the linked notes. This process involves creating a backup, pre-processing the MOC for consistent formatting, specific content filtering, iterative replacement with proper indentation and header adjustment, and aggregated source management using a staging file.
 
 Task Execution Flow:
 
-    Input MOC: You will be provided with the content of a single MOC .md file. This MOC is expected to contain Obsidian WikiLinks ([[Note ID - Note Title]]) to Zettelkasten notes.
+    Create Backup: Make a complete backup copy of the original MOC .md file before any modifications.
 
-    Access Zettelkasten: You will have access to all notes in my designated Zettelkasten folder (assume this is Main_Notes).
+    Initialize Staging: Create an empty temporary file (e.g., _moc_sources_staging.md) to collect all source entries.
 
-    Process Linked Notes (Staging): For each unique note linked within the MOC, you will:
+    Pre-process MOC Content: Normalize the indentation and header levels of the original MOC content for consistency.
 
-        Locate the corresponding note file in Main_Notes.
+    Iterative Link Replacement:
 
-        Read its full content.
+        Work with the pre-processed MOC content. This will be your current MOC content.
 
-        Filter its content as per Section 3.
+        Repeatedly find and process the next [[Note ID - Note Title]] link within the current MOC content.
 
-        Extract source information for aggregation.
+        For each found link:
 
-        Store this processed content and source information temporarily for later insertion.
+            Determine its indentation level and the effective heading level of the section it's in.
 
-    Construct Flattened MOC: You will then iterate through the MOC content, replacing each note link with its processed content and appending the aggregated sources.
+            Locate and read the content of the corresponding note from the Main_Notes folder on demand.
+
+            Filter this note's content (remove tags, discard connection sections).
+
+            Extract source information from this note and append it to the _moc_sources_staging.md file.
+
+            Determine if a header citation is needed based on the note's body content.
+
+            Adjust the note's internal headings relative to the MOC's structure.
+
+            Replace only that one link in the current MOC content with the note's original title (including its ID) as a heading, potentially with a citation, followed by its processed content, all with appropriate indentation.
+
+            Update the current MOC content with this single replacement.
+
+        Continue this step until no more links are found in the current MOC content.
+
+    Finalize Sources:
+
+        Read all content from _moc_sources_staging.md.
+
+        De-duplicate the source entries.
+
+        Append this de-duplicated, aggregated source content under a new ## Sources heading at the very end of the current MOC content.
 
     Output Result: Your final output will be the complete, modified content of the MOC file.
 
@@ -32,49 +54,102 @@ Detailed Requirements:
 
     Zettelkasten Notes: You will read the content of all .md files found within the Main_Notes folder. These notes have filenames structured as [ID] - [Title].md (e.g., 4a - Some title.md).
 
-2. Identify and Process Linked Notes:
+2. Create MOC Backup:
 
-    Identify Links: Scan the input MOC content to find all instances of Obsidian WikiLinks in the format [[Note ID - Note Title]].
+    Before any processing begins, create a copy of the input MOC file.
 
-    Retrieve Note Content: For each identified link:
+    Backup Filename: Append .bak to the original filename (e.g., My MOC.md becomes My MOC.md.bak). If a .bak file already exists, you can overwrite it or append a timestamp (e.g., My MOC.md.bak_YYYYMMDD_HHMMSS).
 
-        Parse the Note ID and Note Title from the link.
+3. Pre-process Original MOC Content for Consistency:
 
-        Construct the expected filename: [Note ID] - [Note Title].md.
+    Before starting link replacement, analyze the entire input MOC content.
 
-        Locate and read the content of this file from the Main_Notes folder.
+    Normalize Indentation: Ensure consistent indentation for list items. For nested lists, each level should be indented by 2 spaces relative to its parent. Correct any inconsistent leading whitespace.
 
-3. Filter Note Content and Aggregate Sources:
+    Normalize Headers (if necessary): While MOCs generally have consistent headers, ensure they follow a logical hierarchy (e.g., ## for main sections, ### for subsections). If any obvious structural issues are present (e.g., a #### directly under a #), attempt to normalize them to maintain a clear hierarchy.
 
-For each note's content that you retrieve:
+4. Iterative Construction of the Flattened MOC:
 
-    Remove Tags: Remove all Markdown tags (e.g., #tag, #multi-word/tag, tag:value, key:: value) from the note's content.
+    Start with a variable holding the current MOC content, initialized with the pre-processed original MOC content.
 
-    Discard "Connections/Related Concepts": Identify and remove any section explicitly titled "Connections", "Related Concepts", "Links", or similar, along with all its sub-content. Assume these sections are typically at the end of a note and might be denoted by a heading (e.g., ## Connections).
+    Loop: While the current MOC content still contains [[Note ID - Note Title]] links:
 
-    Aggregate Sources:
+        Find the first occurrence of a [[Note ID - Note Title]] link in the current MOC content.
 
-        Identify any section explicitly titled "Source", "Sources", "References", or similar.
+        Determine Contextual Indentation and Heading Level:
 
-        Extract the content of this section.
+            Identify the leading whitespace (indentation) of the line containing the found link. This indentation should be preserved for the inserted content.
 
-        Do not include this source content when replacing the link in the main MOC body.
+            Determine the Markdown heading level of the closest preceding heading in the current MOC content. This is the "current effective heading level."
 
-        Collect all extracted source content from all linked notes into a single, comprehensive list. This list will form a new "Sources" section at the very end of the flattened MOC. Ensure unique source entries if possible (e.g., by de-duplicating exact lines).
+        On-Demand Note Processing:
 
-4. Construct the Flattened MOC:
+            Parse the Note ID and Note Title from this specific link.
 
-    Replace Links: In the original MOC content, replace each [[Note ID - Note Title]] link with the processed content of the corresponding note (i.e., after tags and connection sections have been removed).
+            Construct the expected filename: [Note ID] - [Note Title].md.
 
-    Maintain Structure: Ensure that the original headings and overall structure of the MOC are preserved. The inserted note content should flow naturally under the heading where its link originally resided.
+            Locate and read the content of this file from the Main_Notes folder.
 
-    Append Aggregated Sources: After all links have been replaced, append the collected and de-duplicated aggregated source content under a new, top-level heading at the very end of the MOC, titled ## Sources.
+            Filter Content:
 
-5. Output:
+                4.1 Remove Tags: Remove all Markdown tags (e.g., #tag, #multi-word/tag, tag:value, key:: value) from the note's content.
 
-Your output should be the complete, modified MOC .md file content, with all links replaced by processed note content and a consolidated "Sources" section at the end.
+                4.2 Discard "Connections/Related Concepts": Identify and remove any section explicitly titled "Connections", "Related Concepts", "Links", or similar, along with all its sub-content. Assume these sections are typically at the end of a note and might be denoted by a heading (e.g., ## Connections).
 
-Example Scenario:
+            4.3 Extract and Stage Sources (to File): Identify any section explicitly titled "Source", "Sources", "References", or similar. Extract the content of this source section and append it to the _moc_sources_staging.md file. Ensure each source entry is on a new line.
+
+            4.4 Determine Header Citation:
+
+                Analyze the body of the note (after tags and connection sections are removed) for explicit in-text citations. Look for common patterns like \citep{...}, \cite{...}, (Author, Year), [Number], etc.
+
+                If no explicit in-text citations are found in the note's body:
+
+                    From the source section of the current note being processed (before it's appended to _moc_sources_staging.md), identify the first source entry.
+
+                    Extract the primary author/organization and year from this first source entry.
+
+                    Format this as ([Author/Org] Year).
+
+                If explicit in-text citations are found, no citation is added to the header.
+
+        Prepare Inserted Content:
+
+            Take the processed content of the note.
+
+            Adjust Internal Headings: For every heading (#, ##, ###, etc.) within the note's processed content, increase its level by one hash (#) relative to the current effective heading level of the MOC section. For example, if the MOC section is ##, and the note starts with #, it becomes ###. If the note starts with ##, it becomes ####, and so on. Ensure no heading exceeds ######.
+
+            Apply Indentation: Apply the leading whitespace of the original link's line to every line of the adjusted note content, including its new title heading. If the link was part of a list item (e.g., - [[...]]), ensure the inserted content maintains that list item's indentation.
+
+        Replace Link: Replace only this single instance of the link in the current MOC content with the following structure, ensuring correct indentation:
+
+        [Original Link's Indentation]### [Note ID] - [Original Note Title] [Optional Citation]
+        [Original Link's Indentation]
+        [Original Link's Indentation][Processed Note Content, with adjusted internal headings and consistent indentation]
+
+        Where [Optional Citation] is the ([Author/Org] Year) determined in step 4.4, or empty if explicit citations were found in the body.
+        (The ### for the inserted note title is a base suggestion; the agent should determine the appropriate heading level based on the current MOC context and the note's original top-level heading.)
+
+        Update the current MOC content variable with the result of this replacement.
+
+    Maintain Structure: Ensure that the original MOC headings and overall structure are preserved. The inserted note content should flow naturally under the heading where its link originally resided.
+
+5. Finalize and Append Aggregated Sources:
+
+    Read the entire content of the _moc_sources_staging.md file.
+
+    De-duplicate the source entries from the collected content.
+
+    Append this de-duplicated, aggregated source content under a new, top-level heading at the very end of the current MOC content, titled ## Sources.
+
+6. Output:
+
+Your output should be the complete, modified MOC .md file content (the final current MOC content variable), with all links replaced by processed note content and a consolidated "Sources" section at the end.
+
+Staging File Details:
+
+    _moc_sources_staging.md: This temporary file will be used to accumulate all source entries extracted from individual notes. It is built iteratively as links are processed. It should be created at the beginning of the process and can be deleted or cleared after the final MOC output is generated. Its purpose is to allow for efficient de-duplication of sources at the very end.
+
+Example Scenario (Illustrating Indentation and Header Adjustment):
 
 MOC File Content (Provided as Input):
 
@@ -82,7 +157,7 @@ MOC File Content (Provided as Input):
 
 ## Entanglement
 - [[4a - Entanglement Basics]]
-- [[4a1 - Bell's Theorem]]
+  - More details: [[4a1 - Bell's Theorem]]
 
 ## Applications
 ### Quantum Cryptography
@@ -92,95 +167,83 @@ Content of 4a - Entanglement Basics.md (from Main_Notes):
 
 # Entanglement Basics
 
-Quantum entanglement is a phenomenon where two or more particles become linked... #physics #quantum
+Quantum entanglement is a phenomenon where two or more particles become linked...
 
-## Connections
-- [[4b - Superposition Explained]]
+## Key Properties
+- Non-local correlation
+- Instantaneous collapse
 
 ## Source
 - Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information.
 
-Content of 4a1 - Bell's Theorem.md (from Main_Notes):
+Agent's Logic (Illustrative Iteration for 4a - Entanglement Basics):
 
-# Bell's Theorem
+    ... (Backup & Staging Init) ...
 
-Bell's theorem states that no physical theory of local hidden variables can ever reproduce all the predictions of quantum mechanics.
+    Pre-process MOC: (Ensures -  and  - are consistent).
 
-## Related Concepts
-- EPR Paradox
+    Iterative Link Replacement:
 
-## Source
-- Bell, J. S. (1964). On the Einstein Podolsky Rosen Paradox.
+        Initial current MOC content: (as above)
 
-Content of 4a2 - Quantum Entanglement in Secure Communication.md (from Main_Notes):
+        Iteration 1: Finds [[4a - Entanglement Basics]].
 
-# Quantum Entanglement in Secure Communication
+            Context: Link is on a line starting with -  (2 spaces indentation for content). Closest preceding heading is ## Entanglement.
 
-Quantum Key Distribution (QKD) utilizes entanglement to ensure secure communication... #security
+            Reads 4a - Entanglement Basics.md.
 
-## Source
-- Bennett, C. H., & Brassard, G. (1984). Quantum Cryptography: Public Key Distribution and Coin Tossing.
+            Processes content (removes tags, connections).
 
-Agent's Logic:
+            Extracts source, appends to _moc_sources_staging.md.
 
-    Reads MOC. Identifies links: [[4a - Entanglement Basics]], [[4a1 - Bell's Theorem]], [[4a2 - Quantum Entanglement in Secure Communication]].
+            Determines header citation (none needed for this example, assuming in-text citations exist or it's not a full note citation case).
 
-    Retrieves content for each.
+            Prepare Inserted Content:
 
-    Processes 4a - Entanglement Basics.md:
+                Original note's top heading: # Entanglement Basics
 
-        Removes #physics #quantum.
+                MOC's effective heading level: ## (level 2)
 
-        Removes ## Connections section.
+                Adjusted heading for insertion: ### Entanglement Basics (level 3, 2+1=3)
 
-        Extracts source: "Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information."
+                Apply indentation: Every line of processed content will start with -  (original bullet indentation).
 
-        Processed content: # Entanglement Basics\n\nQuantum entanglement is a phenomenon where two or more particles become linked...
+            Replaces the link.
 
-    Processes 4a1 - Bell's Theorem.md:
+            current MOC content becomes:
 
-        No tags.
+            # Quantum Physics MOC
 
-        Removes ## Related Concepts section.
+            ## Entanglement
+            - ### 4a - Entanglement Basics
 
-        Extracts source: "Bell, J. S. (1964). On the Einstein Podolsky Rosen Paradox."
+              Quantum entanglement is a phenomenon where two or more particles become linked...
 
-        Processed content: # Bell's Theorem\n\nBell's theorem states that no physical theory of local hidden variables can ever reproduce all the predictions of quantum mechanics.
+              #### Key Properties
+              - Non-local correlation
+              - Instantaneous collapse
+            -   - More details: [[4a1 - Bell's Theorem]]
 
-    Processes 4a2 - Quantum Entanglement in Secure Communication.md:
+            ## Applications
+            ### Quantum Cryptography
+            - [[4a2 - Quantum Entanglement in Secure Communication]]
 
-        Removes #security.
+            (Note: The   - More details: line's indentation should be preserved from the original MOC structure by the agent, showing the nested list.)
 
-        No connection sections.
-
-        Extracts source: "Bennett, C. H., & Brassard, G. (1984). Quantum Cryptography: Public Key Distribution and Coin Tossing."
-
-        Processed content: # Quantum Entanglement in Secure Communication\n\nQuantum Key Distribution (QKD) utilizes entanglement to ensure secure communication...
-
-    Aggregates Sources: Collects all three unique source entries.
-
-    Replaces links in MOC and appends sources.
-
-Expected Output (Modified MOC Content):
+Expected Output (Illustrative snippet for 4a - Entanglement Basics):
 
 # Quantum Physics MOC
 
 ## Entanglement
-# Entanglement Basics
+- ### 4a - Entanglement Basics
 
-Quantum entanglement is a phenomenon where two or more particles become linked...
-# Bell's Theorem
+  Quantum entanglement is a phenomenon where two or more particles become linked...
 
-Bell's theorem states that no physical theory of local hidden variables can ever reproduce all the predictions of quantum mechanics.
+  #### Key Properties
+  - Non-local correlation
+  - Instantaneous collapse
+-   - More details: [[4a1 - Bell's Theorem]]
 
-## Applications
-### Quantum Cryptography
-# Quantum Entanglement in Secure Communication
+... (rest of MOC) ...
 
-Quantum Key Distribution (QKD) utilizes entanglement to ensure secure communication...
-
-## Sources
-- Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information.
-- Bell, J. S. (1964). On the Einstein Podolsky Rosen Paradox.
-- Bennett, C. H., & Brassard, G. (1984). Quantum Cryptography: Public Key Distribution and Coin Tossing.
 
