@@ -168,14 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1fc9754a0882757",
+  "active": "01796c2ba40d8e25",
   "lastOpenFiles": [
+    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Untitled",
     "Main_Notes/3d20 - Visualization Tools are Essential for Human-ML Collaboration.md",
     "Main_Notes/4c1a23 - Variable PV System Topology Complicates Fault Detection.md",
     "Main_Notes/4c3 - Variable Environmental Conditions Can Mask PV System Faults.md",
     "Inbox/Untitled.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Main_Notes/4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
     "Main_Notes/4c1b3a - Unsupervised Models May Miss Subtle Incipient Faults in PV Systems.md",
     "Main_Notes/4c1a22 - Unsupervised ML in PV Systems Detects Faults by Identifying Anomalies from a Normal Baseline.md",
@@ -205,7 +206,6 @@
     "ZoteroLibrary.bib",
     "Reference_Notes/references.bib",
     "References",
-    "Main_Notes",
-    "Reference_Notes"
+    "Main_Notes"
   ]
 }

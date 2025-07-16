@@ -4,30 +4,123 @@
 - **The Big Picture:**
     - Increasing reliance on complex industrial systems and critical infrastructure.
     - Growth of renewable energy sources, specifically Photovoltaic (PV) Power Plants.
+    - [[4 - Solar PV Dominates Global Renewable Capacity Growth]]
+    - [[4a - China dominates solar and wind deployment]]
+    - [[4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment]]
 - **Importance of System Health & Reliability:**
     - Consequences of undetected faults: Economic Losses, Safety Hazards, Reduced Efficiency, Environmental Impact.
+    - [[4d1a - Undetected Faults Degrade PV System Health and Reliability]]
+    - [[4d1a1 - Undetected PV Faults Can Create Significant Safety Hazards]]
+    - [[4d1a2 - Undetected PV Faults Cause Economic Losses by Reducing Energy Yield]]
     - Crucial role of Effective Fault Detection for operational efficiency and failure prevention.
+    - [[4c1a7 - Continuous PV Monitoring Swiftly Identifies and Corrects Inefficiencies]]
+    - [[4c1a7a - Proactive Monitoring Data Informs Strategic PV Investment Decisions]]
+    - [[4c1a7b - Proactive Monitoring Enables Predictive Maintenance for PV Systems]]
+    - [[4c1a7c - Proactive Monitoring Optimizes Photovoltaic System Performance]]
+    - [[4c1a7d - PV System Monitoring Ensures Compliance with Warranty Conditions]]
 ## 2. Specific Challenges in Fault Detection
 - **Data Characteristics Challenges:**
     - Scarcity of Labeled Fault Data (rare events).
+        - [[4c1a8 - Data Acquisition and Labeling Costs Challenge Supervised ML in PV Fault Detection]]
+        - [[4c1a8a - Data Acquisition for PV Faults is Complex and Resource-Intensive]]
+        - [[4c1a8e - Manual Data Labeling for PV Faults Incurs Significant Costs]]
+        - [[4c1a8h - Scarcity of Labeled Data Hinders Advanced ML Adoption in PV Systems]]
+        - [[4c1a8i - Scarcity of Labeled Data Impedes PV Fault Detection Model Development]]
     - High Dimensionality and Complexity of Sensor Data.
+        - [[4c1a10 - High Data Dimensionality and Complexity Challenge ML in PV Fault Detection]]
+        - [[4c1a1a - Curse of Dimensionality in PV System Data]]
+        - [[4c1a6 - Complex Interdependencies in PV Sensor Data Require Non-Linear Models]]
+        - [[4c1a9 - Heterogeneous Data from PV Systems Challenges Traditional ML Models]]
     - Dynamic Operating Conditions and their impact on data.
+        - [[4c1b - Dynamic Operating Conditions in PV Systems Cause False Positives]]
+        - [[4c1b1 - Environmental Factors Complicate PV Fault Classification]]
+        - [[4c3 - Variable Environmental Conditions Can Mask PV System Faults]]
 - **Limitations of Traditional Approaches:**
     - **Supervised Methods:**
         - Requirement for Extensive Labeled Data.
+            - [[4c1a8l - Supervised Learning for PV Fault Detection is Limited by Labeled Data Dependency]]
         - Challenges in Data Acquisition and Labeling Cost.
+            - [[4c1a8c - Dynamic Nature of PV Systems Necessitates Costly Model Retraining]]
+            - [[4c1a8d - Inadequate Training Data Limits ML Model Effectiveness in PV Fault Detection]]
+            - [[4c1a8f - Poor Generalization in PV Fault Models is a Consequence of Labeled Data Scarcity]]
+            - [[4c1a8m - Supervised PV Fault Detection Models Suffer from Overfitting Due to Incomplete Datasets]]
     - **Purely Unsupervised Methods:**
         - Strengths in Anomaly Detection.
+            - [[4c1a20 - Unsupervised Learning Enables Comprehensive PV Fault Detection]]
+            - [[4c1a21 - Unsupervised Learning Excels at Identifying Novel or Undocumented PV Faults]]
+            - [[4c1a22 - Unsupervised ML in PV Systems Detects Faults by Identifying Anomalies from a Normal Baseline]]
         - Limitations in Fault Interpretability and Fault Type Classification.
+            - [[4c1a5b - Fault Classification Challenges in Unsupervised PV Monitoring]]
+            - [[4c1a5b1 - Overlapping Fault Signatures Complicate PV Anomaly Classification]]
+            - [[4c1a5b2 - Poor ML Interpretability in PV Systems Leads to Inefficient Maintenance]]
+            - [[4c1a5b3 - Unsupervised ML for PV Fault Detection Lacks Interpretability and Classification]]
+            - [[4c1a5c - Interpretability Gap in Unsupervised Models for PV Faults]]
         - Problem of distinguishing Critical Faults vs. Normal Variations.
+            - [[4c1b2 - High False Positive Rate is a Key Limitation of Unsupervised PV Fault Detection]]
+            - [[4c1b2a - High Rate of False Positives in Unsupervised PV Fault Detection]]
+            - [[4c1b2b - Normal PV Operational Variations Can Mimic Faults]]
+            - [[4c1b2c - Sensor Noise in PV Systems Can Mimic Fault Signatures]]
+            - [[4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations]]
+            - [[4c1b3 - High Rate of False Negatives in Unsupervised PV Fault Detection]]
+            - [[4c1b3a - Unsupervised Models May Miss Subtle Incipient Faults in PV Systems]]
 
 ## 3. The Gap & The Need for Hybrid Approaches
 - **Identifying the Research Gap:**
     - Need for methods bridging Data Scarcity and demand for Actionable Fault Diagnostics.
+        - [[4c1a13 - Hybrid ML Models Address Data Scarcity and Actionability in PV Fault Detection]]
 - **Introduction to Semi-Supervised Learning:**
     - Leveraging Unlabeled Data (abundance) and Limited Labeled Data (specificity).
+        - [[4c1a8g - Scarce Labeled Data Drives Adoption of Hybrid Learning in PV Fault Detection]]
+        - [[4c1a8j - Semi-Supervised Learning Improves Accuracy by Generalizing from Unlabeled Data]]
+        - [[4c1a8k - Semi-Supervised Learning Reduces Labeled Data Dependency in PV Fault Detection]]
     - Benefits of Semi-Supervised Learning Paradigms.
+        - [[4c1a11 - Hybrid Learning Models Enhance Adaptability in PV Fault Detection]]
+        - [[4c1a12 - Hybrid Methodologies Enable Cost-Effective PV Fault Detection]]
+        - [[4c1a14 - Hybrid Models Combine Unsupervised and Supervised Learning for Robust PV Fault Detection]]
+        - [[4c1a15 - Hybrid Models for PV Fault Detection and Classification]]
+        - [[4c1a16 - Hybrid Models Help Manage Imbalanced Datasets in PV Fault Detection]]
+        - [[4c1a17 - Hybrid Models Improve PV Fault Detection Accuracy]]
+        - [[4c1a18 - Non-Supervised Methods Offer an Adaptive Alternative to Supervised PV Fault Detection]]
+        - [[4c1a8b - Digital Twins Can Generate Synthetic Data to Train PV Fault Detection Models]]
+        - [[4c1a8b1 - Generative Models Augment Scarce Datasets for PV Fault Detection]]
+        - [[4c1a8b1a - Generative Models Augment Scarce PV Fault Data]]
+        - [[4c1a8n - Transfer Learning Mitigates Data Scarcity in PV Fault Detection]]
+        - [[4c1a8o - Unsupervised Learning Mitigates Labeled Data Scarcity in PV Fault Detection]]
+        - [[4c1a8p - Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity]]
+        - [[4c1a19 - Thermal Imaging Provides an Alternative Data Source for PV Fault Detection]]
+        - [[4c1a3 - Combining Data Sources in Hybrid Models Improves PV Diagnostics]]
+        - [[4c1a3a - Fusing Remote Sensing with ML Enables Robust PV Monitoring]]
+        - [[4c1a3b - Sensor Fusion]]
+        - [[4c1a1 - Autoencoders Can Mitigate High Dimensionality in PV Data]]
+        - [[4c1a1b - Deep Learning Autoencoders Can Enhance Feature Extraction for PV Fault Detection]]
+        - [[4c1a2 - BORE Addresses Key Challenges in PV Fault Detection Systems]]
+        - [[4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection]]
+        - [[4c1a4 - Combining Deep Learning and Classical ML Improves Fault Classification Robustness]]
+        - [[4c1a5 - Common Unsupervised Techniques for PV Fault Detection]]
+        - [[4c1a5a - Computational Cost Can Limit Real-Time Application of Unsupervised PV Fault Detection]]
+        - [[4c1a6a - Ensemble Learning Improves Robustness in PV Fault Detection]]
 - **Value of Human Expertise:**
     - Crucial role of Domain Expert Feedback.
+        - [[3d - Expert Input is Crucial for Fault Detection in Large-Scale PV Systems]]
+        - [[3d3 - Human Context is Essential for Interpreting Environmental Variables]]
+        - [[3d4 - Human Expertise Improves Generalization of ML Models]]
+        - [[3d7 - Human Expertise Provides Essential Context for ML Models]]
+        - [[3d8 - Human Experts are Key to Adapting ML Models Over Time]]
+        - [[3d12 - Human-Led Feature Engineering Enhances ML Model Performance]]
+        - [[3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection]]
+        - [[3d16 - Integrating Human Expertise with ML is Crucial for PV Fault Detection]]
+        - [[3d18 - Neuro-Fuzzy Systems Embody Human Expertise in Hybrid Models]]
     - Transforming Anomaly Scores to Meaningful Fault Classifications.
+        - [[3d1 - Expert-Informed Thresholds Improve Anomaly Score Utility]]
+        - [[3d5 - Human Expertise is Crucial for Interpreting Ambiguous ML Results]]
+        - [[3d6 - Human Expertise is Essential for Interpreting and Acting on ML Results]]
+        - [[3d9 - Human Interpretation is Key to Classifying ML-Detected Anomalies]]
+        - [[3d10 - Human Oversight Improves Detection of Incipient Faults]]
+        - [[3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults]]
+        - [[3d13 - Hybrid Architectures Can Enhance ML Model Interpretability]]
+        - [[3d14 - Hybrid Human-ML Systems are Necessary for Complex PV Faults]]
+        - [[3d17 - IoT Integration Enables Real-Time Human-ML Feedback Loops]]
+        - [[3d19 - Non-Invasive Fault Detection Relies on Human-ML Synergy]]
+        - [[3d20 - Visualization Tools are Essential for Human-ML Collaboration]]
     - Concept of Human-in-the-Loop Systems.
+        - [[3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults]]
