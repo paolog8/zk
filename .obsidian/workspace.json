@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_moc_sources_staging.md",
+                "file": "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_moc_sources_staging"
+              "title": "The Lab2Rooftop Perovskite Solar Cell Data Initiative"
             }
           }
         ]
@@ -190,13 +190,21 @@
   },
   "active": "03bc9c15c7fa303d",
   "lastOpenFiles": [
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
-    "MOCs/MOC part 1-2 flattened.md",
+    "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
+    "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
+    "Inbox/Perovskite Characterization Data Links Material Properties to Device Performance.md",
+    "Inbox/Scalable Manufacturing and Humidity Tolerance are Key Foci in Perovskite Synthesis Datasets.md",
+    "Inbox/Fragmented Datasets Hinder Holistic Perovskite Solar Cell Optimization.md",
+    "Inbox/Perovskite Solar Cell Development Follows a Four-Phase Research Cycle.md",
     "_moc_sources_staging.md",
-    "_moc_sources_staging.bak.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "_moc_sources_staging 1.md",
     "_moc_sources_staging.md.bak",
+    "Main_Notes/4c1a3b - Sensor Fusion.md",
+    "MOCs/Staging MOC.md",
+    "MOCs/MOC part 1-2 flattened.md",
+    "_moc_sources_staging.bak.md",
     "Main_Notes/4c1a8g - Scarce Labeled Data Drives Adoption of Hybrid Learning in PV Fault Detection.md",
-    "Inbox/Untitled.md",
     "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
     "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
@@ -210,13 +218,6 @@
     "Main_Notes/4c1a8 - Data Acquisition and Labeling Costs Challenge Supervised ML in PV Fault Detection.md",
     "Main_Notes/4c1a7b - Proactive Monitoring Enables Predictive Maintenance for PV Systems.md",
     "Main_Notes/4d1a2 - Undetected PV Faults Cause Economic Losses by Reducing Energy Yield.md",
-    "MOCs/filled_text.md",
-    "GEMINI.md",
-    "Main_Notes/4d1a - Undetected Faults Degrade PV System Health and Reliability.md",
-    "Main_Notes/4c1a1a - Curse of Dimensionality in PV System Data.md",
-    "MOC_Aggregated_Content.md",
-    "Main_Notes/3d14 - Hybrid Human-ML Systems are Necessary for Complex PV Faults.md",
-    "Main_Notes/4c1b2d - Unsupervised Models Struggle to Distinguish Critical PV Faults from Normal Variations.md",
     "generate_moc_text.py",
     "Untitled",
     "concatenated_notes.txt",

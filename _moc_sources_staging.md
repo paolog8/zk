@@ -55,32 +55,59 @@
 - Syed, S., Li, B., & Zheng, A. (2024). Detection and classification of physical and electrical fault in pv array system by random forest-based approach. International Journal of Electrical Energy and Power System Engineering, 7(2), 67-84. [https://doi.org/10.31258/ijeepse.7.2.67-84]
 - Han, B., Zou, G., Zhang, X., Niu, Z., & Wang, W. (2025). Modeling and feature analysis of photovoltaic dc series arc faults. Measurement Science and Technology, 36(4), 046113. [https://doi.org/10.1088/1361-6501/adc1f0]
 - Han, J., Chen, Z., & Pan, E. (2024). Unsupervised motor incipient fault detection using lightweight network and orthogonal low-rank embedding. Journal of Physics Conference Series, 2853(1), 012072. [https://doi.org/10.1088/1742-6596/2853/1/012072]
-- Jaskie, K., Martin, J., & Spanias, A. (2021). Pv fault detection using positive unlabeled learning. Applied Sciences, 11(12), 5599. [https://doi.org/10.3390/app11125599]
-- Et-taleby, A., Chaibi, Y., Benslimane, M., & Boussetta, M. (2023). Applications of machine learning algorithms for photovoltaic fault detection: a review. Statistics Optimization & Information Computing, 11(1), 168-177. [https://doi.org/10.19139/soic-2310-5070-1537]
-- Wang, B., Zhang, S., Inoué, H., & Kanemaru, M. (2023). Semi-supervised machine learning for motor eccentricity fault diagnosis. PHMAP_CONF, 4(1). [https://doi.org/10.36001/phmap.2023.v4i1.3644]
-- Dai, S., Wang, D., Li, W., Zhou, Q., Tian, G., & Dong, H. (2021). Fault diagnosis of data-driven photovoltaic power generation system based on deep reinforcement learning. Mathematical Problems in Engineering, 2021, 1-10. [https://doi.org/10.1155/2021/2506286]
-- Ghazali, S. and Sujod, M. (2022). A multi-scale dual-stage model for pv array fault detection, classification, and monitoring technique. International Journal of Applied Power Engineering (Ijape), 11(2), 134. [https://doi.org/10.11591/ijape.v11.i2.pp134-144]
-- Islam, M., Rashel, M., Ahmed, M., Islam, A., & Tlemçani, M. (2023). Artificial intelligence in photovoltaic fault identification and diagnosis: a systematic review. _Energies, 16_(21), 7417. [https://doi.org/10.3390/en16217417]
-- Rahmoune, M., Iratni, A., Amari, A., Hafaifa, A., & Colak, I. (2023). Fault detection and diagnosis of photovoltaic system based on neural networks approach. _Diagnostyka, 24_(3), 1-10. [https://doi.org/10.29354/diag/166428]
-- Ali, M., Saleem, S., Masood, H., Kallu, K., Masud, M., Alvi, M., … & Zafar, a. (2021). Early hotspot detection in photovoltaic modules using color image descriptors: an infrared thermography study. International Journal of Energy Research, 46(2), 774-785. [https://doi.org/10.1002/er.7201]
-- Dhanraj, J., Mostafaeipour, A., Velmurugan, K., Techato, K., Chaurasiya, P., Solomon, J., … & Phoungthong, K. (2021). An effective evaluation on fault detection in solar panels. Energies, 14(22), 7770. [https://doi.org/10.3390/en14227770]
-- Voutsinas, S., Karolidis, D., Voyiatzis, I., & Σαμαράκου, Μ. (2023). Development of a machine-learning-based method for early fault detection in photovoltaic systems. _Journal of Engineering and Applied Science, 70_(1). [https://doi.org/10.1186/s44147-023-00200-0]
-- Lin, B., Zheng, M., Shao, J., & Hu, K. (2025). Automatic intelligent operation and maintenance system for photovoltaic panel failure of photovoltaic power stations. _Journal of Physics Conference Series, 2993_(1), 012005. [https://doi.org/10.1088/1742-6596/2993/1/012005]
-- Pamungkas, R., Utama, I., & Jang, Y. (2023). A novel approach for efficient solar panel fault classification using coupled udensenet. _Sensors, 23_(10), 4918. [https://doi.org/10.3390/s23104918]
-- Qiao, J., Qi, Y., Liu, L., Li, Y., & Luo, Z. (2024). Fine-grained fault diagnosis of photovoltaic systems based on dmad-gan and ifd-fgif. _Measurement Science and Technology, 36_(1), 016237. [https://doi.org/10.1088/1361-6501/ad9bd5]
-- Liu, S., Qi, Y., Ma, R., Liu, L., & Li, Y. (2024). Intelligent fault diagnosis of photovoltaic systems based on deep digital twin. _Measurement Science and Technology, 35_(7), 076207. [https://doi.org/10.1088/1361-6501/ad3bdf]
-- Khosa, I., Rahman, A., Ali, K., Akhtar, J., Armghan, A., Arshad, J., … & Amentie, M. (2023). Fault‐level grading of photovoltaic cells employing lightweight deep learning models. _Computational Intelligence and Neuroscience, 2023_(1). [https://doi.org/10.1155/2023/2663150](https://doi.org/10.1155/2023/2663150)
-- Lu, F., Niu, R., Zhang, Z., Guo, L., & Chen, J. (2022). A generative adversarial network-based fault detection approach for photovoltaic panel. _Applied Sciences, 12_(4), 1789. [https://doi.org/10.3390/app12041789]
-- Seo, G., Yoon, S., Song, J., Srivastava, E., & Hwang, E. (2023). Label-free fault detection scheme for inverters of pv systems: deep reinforcement learning-based dynamic threshold. Applied Sciences, 13(4), 2470. [https://doi.org/10.3390/app13042470]
-- Xu, W., Wan, Y., Zuo, T., & Sha, X. (2020). Transfer learning based data feature transfer for fault diagnosis. Ieee Access, 8, 76120-76129. [https://doi.org/10.1109/access.2020.2989510]
-- Mansouri, M., Trabelsi, M., Nounou, H., & Nounou, M. (2021). Deep learning-based fault diagnosis of photovoltaic systems: a comprehensive review and enhancement prospects. Ieee Access, 9, 126286-126306. [https://doi.org/10.1109/access.2021.3110947]
-- Zhang, J., Chen, Z., Wu, W., Shao, L., Deng, K., & Gao, S. (2024). Unsupervised fault detection approach based on depth auto-encoder for photovoltaic power generation system. _Journal of Computational Methods in Sciences and Engineering, 24_(2), 849-861. [https://doi.org/10.3233/jcm-237070]
-- Xiaoni, C., Dong, W., He, Y., & Shen, M. (2024). A fault diagnosis method of hot spots for photovoltaic clusters based on model parameters. _Energy Science & Engineering, 12_(8), 3453-3464. [https://doi.org/10.1002/ese3.1829]
-- Rahmoune, M., Iratni, A., Amari, A., Hafaifa, A., & Colak, I. (2023). Fault detection and diagnosis of photovoltaic system based on neural networks approach. _Diagnostyka, 24_(3), 1-10. [https://doi.org/10.29354/diag/166428]
-- Ghazali, S. and Sujod, M. (2022). A multi-scale dual-stage model for pv array fault detection, classification, and monitoring technique. _International Journal of Applied Power Engineering (Ijape)_, 11(2), 134. [https://doi.org/10.11591/ijape.v11.i2.pp134-144]
-- Rao, S., Muniraju, G., Tepedelenlioğlu, C., Srinivasan, D., TamizhMani, G., & Spanias, A. (2021). Dropout and pruned neural networks for fault classification in photovoltaic arrays. _Ieee Access_, 9, 120034-120042. [https://doi.org/10.1109/access.2021.3108684]
-- Zhang, W., Wang, G., Yao, G., Lü, C., & Liu, Y. (2024). Study on fault monitoring technology of photovoltaic panel based on thermal infrared and optical remote sensing. _The International Archives of the Photogrammetry Remote Sensing and Spatial Information Sciences, XLVIII-1-2024_, 855-860. [https://doi.org/10.5194/isprs-archives-xlviii-1-2024-855-2024]
-- Fadhel, S., Delpha, C., Diallo, D., Bahri, I., Migan, A., Trabelsi, M., … & Mimouni, M. (2019). Pv shading fault detection and classification based on i-v curve using principal component analysis: application to isolated pv system. _Solar Energy, 179_, 1-10. [https://doi.org/10.1016/j.solener.2018.12.048]
-- Qureshi, U., Rashid, A., Altini, N., Bevilacqua, V., & Scala, M. (2024). Radiometric infrared thermography of solar photovoltaic systems: an explainable predictive maintenance approach for remote aerial diagnostic monitoring. _Smart Cities, 7_(3), 1261-1288. [https://doi.org/10.3390/smartcities7030053]
 - Jaskie, K., Martin, J., & Spanias, A. (2021). Pv fault detection using positive unlabeled learning. Applied Sciences, 11(12), 5599. https://doi.org/10.3390/app11125599
 - Et-taleby, A., Chaibi, Y., Benslimane, M., & Boussetta, M. (2023). Applications of machine learning algorithms for photovoltaic fault detection: a review. Statistics Optimization & Information Computing, 11(1), 168-177. https://doi.org/10.19139/soic-2310-5070-1537
+Ibrahim, M., Alsheikh, A., Awaysheh, F., & Alshehri, M. (2021). Machine learning schemes for anomaly detection in solar power plants.. https://doi.org/10.20944/preprints202112.0481.v1
+
+Martín, A., Izquierdo, J., Medina-García, J., Galán, J., & Vázquez, J. (2020). Centralized mppt controller system of pv modules by a wireless sensor network. Ieee Access, 8, 71694-71707. https://doi.org/10.1109/access.2020.2987621
+Liu, S., Qi, Y., Ma, R., Liu, L., & Li, Y. (2024). Intelligent fault diagnosis of photovoltaic systems based on deep digital twin. Measurement Science and Technology, 35(7), 076207. https://doi.org/10.1088/1361-6501/ad3bdf
+
+Qiao, J., Qi, Y., Liu, L., Li, Y., & Luo, Z. (2024). Fine-grained fault diagnosis of photovoltaic systems based on dmad-gan and ifd-fgif. Measurement Science and Technology, 36(1), 016237. https://doi.org/10.1088/1361-6501/ad9bd5
+\citep{micenkovaLearningRepresentationsOutlier2015}
+Micenková et al., 2015, "Learning Representations for Outlier Detection on a Budget" 
+Aziz, F., Ul-Haq, A., Ahmad, S., Mahmoud, Y., Jalal, M., & Ali, U. (2020). A novel convolutional neural network-based approach for fault classification in photovoltaic arrays. Ieee Access, 8, 41889-41904. https://doi.org/10.1109/access.2020.2977116
+
+Saeed, M., AbdelMoety, A., & Emadeldeen, A. (2024). Comparative analysis of machine learning techniques for fault detection in solar panel systems. Svu-International Journal of Engineering Sciences and Applications, 5(2), 140-152. https://doi.org/10.21608/svusrc.2024.279389.1198
+- Natsheh, E. and Samara, S. (2020). Tree search fuzzy narx neural network fault detection technique for pv systems with iot support. _Electronics_, 9(7), 1087. [https://doi.org/10.3390/electronics9071087](https://doi.org/10.3390/electronics9071087)
+    
+- Et-taleby, A., Chaibi, Y., Benslimane, M., & Boussetta, M. (2023). Applications of machine learning algorithms for photovoltaic fault detection: a review. _Statistics Optimization & Information Computing_, 11(1), 168-177. [https://doi.org/10.19139/soic-2310-5070-1537](https://doi.org/10.19139/soic-2310-5070-1537)
+- Natsheh, E. and Samara, S. (2020). Tree search fuzzy narx neural network fault detection technique for pv systems with iot support. _Electronics_, 9(7), 1087. [https://doi.org/10.3390/electronics9071087](https://doi.org/10.3390/electronics9071087)
+Mellit, A., Zayane-Aissa, C., Boubaker, S., & Kamel, S. (2023). A sustainable fault diagnosis approach for photovoltaic systems based on stacking-based ensemble learning methods. Mathematics, 11(4), 936. https://doi.org/10.3390/math11040936
+
+Voutsinas, S., Karolidis, D., Voyiatzis, I., & Σαμαράκου, Μ. (2023). Development of a machine-learning-based method for early fault detection in photovoltaic systems. Journal of Engineering and Applied Science, 70(1). https://doi.org/10.1186/s44147-023-00200-0
+Pei, T. and Hao, X. (2019). A fault detection method for photovoltaic systems based on voltage and current observation and evaluation. _Energies, 12_(9), 1712. [https://doi.org/10.3390/en12091712](https://doi.org/10.3390/en12091712)
+Djeghader, R., Msabah, I., Benzahioul, S., & Metatla, A. (2022). Fault diagnosis of a photovoltaic system using recurrent neural networks. Bulletin of Electrical Engineering and Informatics, 11(6), 3079-3090. https://doi.org/10.11591/eei.v11i6.4295
+
+Eskandari, A., Milimonfared, J., Aghaei, M., & Reinders, A. (2020). Autonomous monitoring of line-to-line faults in photovoltaic systems by feature selection and parameter optimization of support vector machine using genetic algorithms. Applied Sciences, 10(16), 5527. https://doi.org/10.3390/app10165527
+Appiah, A., Xing-hua, Z., Ayawli, B., & Kyeremeh, F. (2019). Long short-term memory networks based automatic feature extraction for photovoltaic array fault diagnosis. Ieee Access, 7, 30089-30101. https://doi.org/10.1109/access.2019.2902949
+
+Garoudja, E., Chouder, A., Kara, K., & Silvestre, S. (2017). An enhanced machine learning based approach for failures detection and diagnosis of pv systems. Energy Conversion and Management, 151, 496-513. https://doi.org/10.1016/j.enconman.2017.09.019
+
+Basnet, B., Chun, H., & Bang, J. (2020). An intelligent fault detection model for fault detection in photovoltaic systems. Journal of Sensors, 2020, 1-11. https://doi.org/1155/2020/6960328
+Tertytchny, G., Nicolaou, N., & Michael, M. (2019). Differentiating attacks and faults in energy aware smart home system using supervised machine learning., 122-127. [https://doi.org/10.1145/3312614.3312642](https://doi.org/10.1145/3312614.3312642)
+Yousefi, S., Yin, S., & Alfarizi, M. (2023). Intelligent fault diagnosis of manufacturing processes using extra tree classification algorithm and feature selection strategies. Ieee Open Journal of the Industrial Electronics Society, 4, 618-628. https://doi.org/10.1109/ojies.2023.3334429
+
+Balaji, P., Sridharan, N., Sugumaran, V., & Mahamuni, V. (2024). Deep transfer learning architecture for suspension system fault diagnosis using spectrogram image and cnn. Advances in Mechanical Engineering, 16(6). https://doi.org/1177/16878132241258904
+Mellit, A., Zayane-Aissa, C., Boubaker, S., & Kamel, S. (2023). A sustainable fault diagnosis approach for photovoltaic systems based on stacking-based ensemble learning methods. Mathematics, 11(4), 936. https://doi.org/10.3390/math11040936
+
+Voutsinas, S., Karolidis, D., Voyiatzis, I., & Σαμαράκου, Μ. (2023). Development of a machine-learning-based method for early fault detection in photovoltaic systems. Journal of Engineering and Applied Science, 70(1). https://doi.org/10.1186/s44147-023-00200-0
+Wang, Q., Huang, R., Xiong, J., Yang, J., Dong, X., Wu, Y., … & Lu, T. (2024). A survey on fault diagnosis of rotating machinery based on machine learning. Measurement Science and Technology, 35(10), 102001. https://doi.org/10.1088/1361-6501/ad6203
+
+Xu, L., Wang, T., Xie, J., Yang, J., & Gao, G. (2022). A mechanism-based automatic fault diagnosis method for gearboxes. Sensors, 22(23), 9150. https://doi.org/10.3390/s22239150
+Sairam, S., Srinivasan, S., Marafioti, G., Subathra, B., Mathisen, G., & Bekiroglu, K. (2020). Explainable incipient fault detection systems for photovoltaic panels.. https://doi.org/10.48550/arxiv.2011.09843
+
+Al-Obaidi, M. and Derbel, N. (2023). Iot-based monitoring and shading faults detection for a pv water pumping system using deep learning approach. Bulletin of Electrical Engineering and Informatics, 12(5), 2673-2681. https://doi.org/10.11591/eei.v12i5.4496
+Sarmiento, J., Delfino, J., & Arboleda, E. (2024). Machine learning advances in transmission line fault detection: a literature review. _International Journal of Science and Research Archive, 12_(1), 2880-2887. [https://doi.org/10.30574/ijsra.2024.12.1.1150](https://doi.org/10.30574/ijsra.2024.12.1.1150)
+Saeed, M., AbdelMoety, A., & Emadeldeen, A. (2024). Comparative analysis of machine learning techniques for fault detection in solar panel systems. Svu-International Journal of Engineering Sciences and Applications, 5(2), 140-152. https://doi.org/10.21608/svusrc.2024.279389.1198
+
+Haque, A., Kurukuru, V., Khan, M., Khan, I., & Jaffery, Z. (2019). Fault diagnosis of photovoltaic modules. Energy Science & Engineering, 7(3), 622-644. https://doi.org/10.1002/ese3.255
+Ghazali, S. and Sujod, M. (2022). A multi-scale dual-stage model for pv array fault detection, classification, and monitoring technique. _International Journal of Applied Power Engineering (Ijape), 11_(2), 134. [https://doi.org/10.11591/ijape.v11.i2.pp134-144](https://doi.org/10.11591/ijape.v11.i2.pp134-144)
+Harrou, F., Sun, Y., Taghezouit, B., Saidi, A., & Hamlati, M. (2018). Reliable fault detection and diagnosis of photovoltaic systems based on statistical monitoring approaches. _Renewable Energy, 116_, 22-37. [https://doi.org/10.1016/j.renene.2017.09.048](https://doi.org/10.1016/j.renene.2017.09.048)
+Alrifaey, M., Lim, W., Ang, C., Natarajan, E., Solihin, M., Juhari, M., … & Tiang, S. (2022). Hybrid deep learning model for fault detection and classification of grid-connected photovoltaic system. Ieee Access, 10, 13852-13869. https://doi.org/10.1109/access.2022.3140287
+
+Kim, G., Lee, W., Bhang, B., Choi, J., & Ahn, H. (2021). Fault detection for photovoltaic systems using multivariate analysis with electrical and environmental variables. Ieee Journal of Photovoltaics, 11(1), 202-212. https://doi.org/10.1109/jphotov.2020.3032974
+
+Et-taleby, A., Chaibi, Y., Benslimane, M., & Boussetta, M. (2023). Applications of machine learning algorithms for photovoltaic fault detection: a review. Statistics Optimization & Information Computing, 11(1), 168-177. https://doi.org/10.19139/soic-2310-5070-1537
+Lazzaretti, A., Costa, C., Rodrigues, M., Yamada, G., Lexinoski, G., Moritz, G., … & Santos, R. (2020). A monitoring system for online fault detection and classification in photovoltaic plants. Sensors, 20(17), 4688. https://doi.org/10.3390/s20174688
+
+Samkria, R., Abd‐Elnaby, M., Singh, R., Gehlot, A., Rashid, M., Aly, M., … & El‐Shafai, W. (2021). Automatic pv grid fault detection system with iot and labview as data logger. Computers Materials & Continua, 69(2), 1709-1723. https://doi.org/10.32604/cmc.2021.018525

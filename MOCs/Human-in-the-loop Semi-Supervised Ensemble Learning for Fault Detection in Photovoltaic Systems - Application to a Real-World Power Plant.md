@@ -148,37 +148,226 @@
 
           This integration allows for the detection of physical anomalies (like hotspots or soiling) over large areas without direct physical inspection.
 	          By feeding this rich, multi-modal data into an ML pipeline, it's possible to build robust diagnostic systems that operate with minimal human intervention, meeting the growing demand for automated, real-time performance monitoring.
-        - [[4c1a3b - Sensor Fusion]]
-        - [[4c1a1 - Autoencoders Can Mitigate High Dimensionality in PV Data]]
-        - [[4c1a1b - Deep Learning Autoencoders Can Enhance Feature Extraction for PV Fault Detection]]
-        - [[4c1a2 - BORE Addresses Key Challenges in PV Fault Detection Systems]]
-        - [[4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection]]
-        - [[4c1a4 - Combining Deep Learning and Classical ML Improves Fault Classification Robustness]]
-        - [[4c1a5 - Common Unsupervised Techniques for PV Fault Detection]]
-        - [[4c1a5a - Computational Cost Can Limit Real-Time Application of Unsupervised PV Fault Detection]]
-        - [[4c1a6a - Ensemble Learning Improves Robustness in PV Fault Detection]]
+        - ### 4c1a1 - Autoencoders Can Mitigate High Dimensionality in PV Data
+
+          Autoencoders offer an effective strategy for managing the high dimensionality of PV sensor data. 
+          This type of neural network can learn a compressed, lower-dimensional representation of the input data, effectively capturing its most essential features while filtering out noise and redundancy (Ibrahim et al., 2021; Martín et al., 2020).
+
+          By first processing the data through an autoencoder, the resulting cleaner, feature-rich dataset can be fed into a subsequent classification algorithm. 
+          This two-step process helps to improve model performance and significantly reduce the risk of overfitting associated with high-dimensional spaces.
+        - ### 4c1a1b - Deep Learning Autoencoders Can Enhance Feature Extraction for PV Fault Detection
+
+          One potential solution to improve PV fault classification is to use deep learning models like autoencoders for advanced feature extraction. 
+          Autoencoders can process raw operational data and learn to represent it in a more condensed and meaningful way, potentially capturing subtle patterns that distinguish different fault types (Liu et al., 2024).
+
+          However, the success of this approach hinges on the quality of the learned features. 
+          To improve classification accuracy, the features extracted by the model must be sufficiently discriminative to resolve the nuanced differences between various fault conditions (Qiao et al., 2024).
+        - ### 4c1a2 - BORE Addresses Key Challenges in PV Fault Detection Systems
+
+          BORE's characteristics suggest strong potential for its application to PV fault detection systems. 
+          PV systems often face challenges such as imbalanced data (faults are rare), the need to detect novel anomaly types, and real-time processing constraints. BORE is designed to handle these issues, making it a suitable candidate for reliable, budget-conscious PV monitoring systems.
+        - ### 4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection
+
+          BORE, or Bagged Outlier Representation Ensemble, is an outlier detection framework that combines unsupervised outlier scoring functions (OSFs) with a supervised learning approach. It is designed to address challenges like inherent class imbalance and the detection of novel types of outliers. The framework operates by training a classifier on a rich, non-linear feature representation derived from diverse OSF outputs.
+        - ### 4c1a4 - Combining Deep Learning and Classical ML Improves Fault Classification Robustness
+
+          Traditional fault detection methods in PV systems often focus on a narrow range of known fault scenarios, limiting their effectiveness. 
+          A hybrid approach that integrates diverse learning techniques, such as combining convolutional neural networks (CNNs) with classical ML classifiers, enhances the robustness of fault classification (Aziz et al., 2020).
+
+          This strategy leverages the strengths of both paradigms: CNNs excel at automatically extracting complex spatial and temporal features from raw data, while classical classifiers can make robust decisions based on these features. 
+          This combination leads to improved diagnostic performance across a wider variety of fault types (Saeed et al., 2024).
+        - ### 4c1a5 - Common Unsupervised Techniques for PV Fault Detection
+
+          Several unsupervised machine learning techniques are applied to discern normal from faulty behavior in photovoltaic (PV) systems. 
+          These methods analyze performance metrics without needing prior fault labels.
+
+          Commonly used techniques include one-class support vector machines (SVM), principal component analysis (PCA), and various clustering algorithms. 
+          For instance, PCA can be used to reduce the dimensionality of data and identify deviations, while clustering can group data points to separate normal operational states from anomalous ones, indicating potential faults (Natsheh & Samara, 2020; Et-taleby et al., 2023).
+        - ### 4c1a5a - Computational Cost Can Limit Real-Time Application of Unsupervised PV Fault Detection
+
+          The computational complexity associated with certain unsupervised algorithms can be a significant barrier to their use in real-time fault detection for PV systems. 
+          Processing the large volumes of high-frequency data generated by PV arrays can be resource-intensive.
+
+          This high computational demand may make some unsupervised methods impractical for immediate, on-the-fly fault detection where rapid responses are necessary. 
+          The feasibility of these models in real-time applications often depends on the available computing power and the efficiency of the specific algorithm chosen (Natsheh & Samara, 2020).
+        - ### 4c1a6a - Ensemble Learning Improves Robustness in PV Fault Detection
+
+          Ensemble learning methods provide a robust approach to handling the complex and high-dimensional data from PV systems. 
+          Instead of relying on a single model, an ensemble aggregates the predictions from multiple models to arrive at a final decision.
+
+          This technique enhances overall accuracy and provides greater resilience against overfitting, which is a critical advantage when dealing with noisy, non-linear data (Mellit et al., 2023; Voutsinas et al., 2023). 
+          Ensembles are thus well-suited to improve the reliability of fault detection in complex operational environments.
 - **Value of Human Expertise:**
     - Crucial role of Domain Expert Feedback.
-        - [[3d - Expert Input is Crucial for Fault Detection in Large-Scale PV Systems]]
-        - [[3d3 - Human Context is Essential for Interpreting Environmental Variables]]
-        - [[3d4 - Human Expertise Improves Generalization of ML Models]]
-        - [[3d7 - Human Expertise Provides Essential Context for ML Models]]
-        - [[3d8 - Human Experts are Key to Adapting ML Models Over Time]]
-        - [[3d12 - Human-Led Feature Engineering Enhances ML Model Performance]]
-        - [[3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection]]
-        - [[3d16 - Integrating Human Expertise with ML is Crucial for PV Fault Detection]]
-        - [[3d18 - Neuro-Fuzzy Systems Embody Human Expertise in Hybrid Models]]
+        - ### 3d - Expert Input is Crucial for Fault Detection in Large-Scale PV Systems
+
+          Fault detection in large-scale PV systems is uniquely challenging due to the immense complexity and interconnection of components, which can lead to numerous and varied fault types. 
+          Standard ML algorithms may struggle to adequately identify all potential failures in such vast systems (Pei & Hao, 2019).
+
+          Incorporating expert feedback is crucial for modeling these large-scale complexities in a way that purely algorithmic solutions might overlook. 
+          A cooperative relationship between the machine and the human operator allows the system's learning objectives to be refined over time, progressively improving diagnostic accuracy for the specific challenges posed by large, intricate installations.
+        - ### 3d3 - Human Context is Essential for Interpreting Environmental Variables
+
+          Machine learning models, while powerful at analyzing data, can struggle to correctly interpret the influence of complex environmental variables on PV system performance. 
+          Human expertise provides the crucial interpretative context needed to make sense of these factors (Djeghader et al., 2022).
+
+          An operator can discern whether a performance dip is due to a passing weather front, high ambient temperatures, or a genuine fault—a distinction a purely statistical model might miss. 
+          This collaborative framework, which merges quantitative data analysis with qualitative human assessment, ensures that diagnoses are robust and grounded in the operational reality of the system (Eskandari et al., 2020).
+        - ### 3d4 - Human Expertise Improves Generalization of ML Models
+
+          Machine learning models like LSTMs and CNNs are adept at extracting features from PV data but may struggle to generalize their knowledge to new or unseen fault conditions. 
+          Human experts play a vital role in overcoming this limitation by intervening to refine feature selection or adjust model parameters (Appiah et al., 2019; Garoudja et al., 2017).
+
+          This human oversight ensures that the models remain robust and reliable when deployed across different operational contexts. 
+          By validating model outputs and guiding the feature extraction process, experts help create more intelligent and adaptable fault detection systems that achieve high accuracy in real-world scenarios (Basnet et al., 2020). ^e6cf1c
+        - ### 3d7 - Human Expertise Provides Essential Context for ML Models
+
+          Human experts are invaluable in hybrid fault detection systems because they provide context that raw data alone cannot convey. 
+          While ML models are trained on large datasets, these datasets may not capture every operational nuance of a PV system (Et-taleby et al., 2023; Garoudja et al., 2017).
+
+          Domain specialists can interpret the impact of unique environmental factors, understand historical anomalies, and recognize subtle operational regimes. 
+          This expert knowledge helps inform and refine ML models, ensuring their predictions are grounded in the physical reality of the specific PV installation, which ultimately improves diagnostic accuracy.
+        - ### 3d8 - Human Experts are Key to Adapting ML Models Over Time
+
+          Purely automated machine learning strategies can lack the robustness to adapt to new or evolving fault types that emerge over the lifespan of a PV system. 
+          Human expertise is pivotal for the long-term success of these models by guiding their adaptation and recalibration (Tertytchny et al., 2019).
+
+          Experts can identify when a model's performance is degrading and diagnose the cause, whether it's a new type of fault or a change in operating conditions. 
+          By integrating this expert feedback into a continuous fine-tuning process, the hybrid system remains relevant and accurate, effectively handling the unforeseen variables common in PV operations.
+        - ### 3d12 - Human-Led Feature Engineering Enhances ML Model Performance
+
+          A synergistic hybrid strategy involves leveraging human expertise during the initial stages of feature engineering before training a machine learning model. 
+          In this approach, domain experts use their knowledge to select and transform the most relevant input variables from raw data.
+
+          This human-led feature extraction is then combined with ML algorithms like decision trees or support vector machines (SVMs), which excel at finding complex patterns within well-structured data (Yousefi et al., 2023; Balaji et al., 2024). 
+          This collaboration ensures that the model's learning process is guided by expert knowledge, which enhances accountability, accelerates fault resolution, and improves overall diagnostic accuracy.
+        - ### 3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection
+
+          A hybrid approach that balances machine learning (ML) automation with human expertise is crucial for designing efficient and accurate diagnostic tools for photovoltaic (PV) systems. 
+          Faults like shading or degradation can cause significant efficiency losses, making reliable detection essential (Jaskie et al., 2021).
+
+          While ML models offer powerful automation, human operators provide invaluable insights and contextual knowledge. 
+          This synergy is necessary for creating robust diagnostic frameworks that can accurately assess the state of PV systems under the diverse and dynamic conditions found in real-world operations.
+        - ### 3d16 - Integrating Human Expertise with ML is Crucial for PV Fault Detection
+
+          A hybrid approach that balances machine learning (ML) automation with human expertise is crucial for designing efficient and accurate diagnostic tools for photovoltaic (PV) systems. 
+          The complexity of PV operations means that automated models alone can be insufficient (Mellit et al., 2021).
+
+          Human experts provide crucial oversight and domain-specific insights that refine and validate the performance of ML models like Artificial Neural Networks (ANNs) (Dhimish et al., 2018). 
+          This synergy between automated analysis and human evaluation is necessary to handle the diverse and evolving challenges in real-world PV fault detection, enhancing both accuracy and trustworthiness.
+        - ### 3d18 - Neuro-Fuzzy Systems Embody Human Expertise in Hybrid Models
+
+          A powerful hybrid approach for PV fault detection involves integrating rule-based systems with machine learning, such as in a neuro-fuzzy classifier. 
+          These systems formally encapsulate human expertise into a set of logical rules (the "fuzzy logic" component) and combine it with the adaptive learning capabilities of neural networks.
+
+          This fusion allows the model to leverage both expert domain knowledge and data-driven patterns simultaneously. 
+          As demonstrated by Dhimish et al. (2017), such hybrid systems can outperform pure ML approaches in accurately classifying various fault conditions, enhancing prediction accuracy while minimizing false alarms.
     - Transforming Anomaly Scores to Meaningful Fault Classifications.
-        - [[3d1 - Expert-Informed Thresholds Improve Anomaly Score Utility]]
-        - [[3d5 - Human Expertise is Crucial for Interpreting Ambiguous ML Results]]
-        - [[3d6 - Human Expertise is Essential for Interpreting and Acting on ML Results]]
-        - [[3d9 - Human Interpretation is Key to Classifying ML-Detected Anomalies]]
-        - [[3d10 - Human Oversight Improves Detection of Incipient Faults]]
-        - [[3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults]]
-        - [[3d13 - Hybrid Architectures Can Enhance ML Model Interpretability]]
-        - [[3d14 - Hybrid Human-ML Systems are Necessary for Complex PV Faults]]
-        - [[3d17 - IoT Integration Enables Real-Time Human-ML Feedback Loops]]
-        - [[3d19 - Non-Invasive Fault Detection Relies on Human-ML Synergy]]
-        - [[3d20 - Visualization Tools are Essential for Human-ML Collaboration]]
+        - ### 3d1 - Expert-Informed Thresholds Improve Anomaly Score Utility
+
+          A practical and powerful application of the hybrid human-ML approach involves using expert knowledge to set informed thresholds for anomaly scores generated by algorithms. 
+          An ML model can produce a statistical score indicating how much a data point deviates from the norm, but this score lacks inherent meaning.
+
+          By incorporating expert domain knowledge, meaningful classification thresholds can be established to determine when an anomaly score is severe enough to trigger a maintenance alert or other action (Wang et al., 2024; Xu et al., 2022). 
+          This dual focus—combining an AI-derived score with a qualitative, human-set threshold—effectively translates a statistical finding into a practical, risk-mitigated operational decision.
+        - ### 3d5 - Human Expertise is Crucial for Interpreting Ambiguous ML Results
+
+          Even advanced machine learning models like CNNs can fall short in ambiguous fault scenarios where algorithmic interpretation is unclear. 
+          Human expertise is essential in these cases to provide oversight and prevent misdiagnoses that could lead to costly operational errors (Sairam et al., 2020; Eskandari et al., 2020).
+
+          By complementing automated analysis with human judgment, hybrid systems gain a layer of reliability. 
+          Experts can contextualize ambiguous outputs, validate model predictions against their domain knowledge, and ensure that the final diagnostic decision is sound, which is particularly important for complex or novel fault types.
+        - ### 3d6 - Human Expertise is Essential for Interpreting and Acting on ML Results
+
+          Even with the advent of advanced deep learning models like CNNs and LSTMs, there remains an essential role for human expertise in the final stages of the fault detection process. 
+          Experts are needed to interpret the model's output, set practical and effective thresholds for alarms, and devise an appropriate maintenance response (Sarmiento et al., 2024).
+
+          This fusion of automated analysis with human-driven decision-making is critical. 
+          It transforms a simple fault alert into an actionable insight, enriching the overall maintenance strategy. 
+          This synergy ensures that predictive analytics leads to tangible improvements in system reliability and operational efficiency.
+        - ### 3d9 - Human Interpretation is Key to Classifying ML-Detected Anomalies
+
+          A critical step in PV fault detection is transforming an abstract anomaly detected by a machine learning model into a meaningful, physical fault classification. 
+          An ML algorithm might flag a drop in power output, but it often cannot distinguish the cause without additional context (Saeed et al., 2024).
+
+          This is where human expertise becomes essential. 
+          An experienced technician can provide the contextual knowledge—considering factors like weather, time of day, and maintenance history—to determine if the power drop is due to benign shading or a critical issue like panel soiling or an electrical fault (Haque et al., 2019). 
+          This ensures anomalies are correlated accurately with physical causes, leading to actionable insights.
+
+          A critical step in PV fault detection is transforming an abstract anomaly detected by a machine learning model into a meaningful, physical fault classification. 
+          An ML algorithm might flag a drop in power output, but it often cannot distinguish the cause without additional context (Saeed et al., 2024).
+
+          This is where human expertise becomes essential. 
+          An experienced technician can provide the contextual knowledge—considering factors like weather, time of day, and maintenance history—to determine if the power drop is due to benign shading or a critical issue like panel soiling or an electrical fault (Haque et al., 2019). 
+          This ensures anomalies are correlated accurately with physical causes, leading to actionable insights.
+        - ### 3d10 - Human Oversight Improves Detection of Incipient Faults
+
+          Standard machine learning models may not be sensitive enough to adequately detect incipient or subtle faults in their early stages. 
+          Human oversight is critical to complement these automated systems by providing the contextual knowledge needed to identify these developing issues (Sairam et al., 2020).
+
+          An expert can recognize faint patterns or minor deviations that an algorithm might dismiss as noise, especially if they have historical knowledge of the system's behavior. 
+          This combination of automated screening and human validation significantly reduces response times and enhances the overall effectiveness of predictive maintenance efforts (Sairam et al., 2020; Al-Obaidi & Derbel, 2023).
+        - ### 3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults
+
+          Fully automated fault detection in PV systems is complicated by the nuances of operational data. 
+          Purely automated ML models can struggle to distinguish true faults from complex operational variations or sensor noise, necessitating human intervention.
+
+          A "human-in-the-loop" approach, where an expert validates the findings of the ML model, is often required to ensure accuracy (Ghazali & Sujod, 2022). 
+          While this improves reliability, it hinders full automation and can slow down the fault management process, reducing overall system efficiency.
+        - ### 3d13 - Hybrid Architectures Can Enhance ML Model Interpretability
+
+          A key benefit of hybrid models in PV fault detection is their potential to improve the interpretability of complex predictions. 
+          By using a mixed-model architecture, practitioners can gain actionable insights from otherwise "black box" algorithms.
+
+          This can be achieved by pairing a powerful data analysis model (like a deep neural network) with a simpler model or statistical technique focused on explanation. 
+          For example, blending statistical process control with machine learning not only detects faults but also provides understandable outputs that can directly guide maintenance decisions, bridging the gap between detection and action (Harrou et al., 2018).
+        - ### 3d14 - Hybrid Human-ML Systems are Necessary for Complex PV Faults
+
+          The growing complexity of fault types in photovoltaic (PV) systems, such as soiling and degradation, necessitates hybrid detection systems. 
+          These approaches integrate the computational power of machine learning (ML) with the nuanced oversight of human experts to improve diagnostic accuracy and operational safety (Alrifaey et al., 2022; Kim et al., 2021).
+
+          While automated algorithms are powerful, they have inherent limitations. 
+          A hybrid framework that leverages both computational methods and human insight is essential for creating a more reliable and timely fault diagnosis process, which is critical for the operational reliability of modern PV installations (Et-taleby et al., 2023).
+                - ### 3d17 - IoT Integration Enables Real-Time Human-ML Feedback Loops
+
+          The integration of Internet of Things (IoT) technologies is vital for effective hybrid fault detection systems in PV installations. 
+          IoT devices generate vast streams of real-time operational data, which can be processed by ML algorithms to yield immediate, actionable insights (Lazzaretti et al., 2020; Samkria et al., 2021).
+
+          This creates a continuous feedback loop between the automated system and human operators. 
+          The system flags potential issues in real-time, and operators can quickly validate and respond. 
+          This synergy minimizes the risk of overlooking critical faults and significantly accelerates the response to identified problems, enhancing overall system reliability.
+
+          The integration of Internet of Things (IoT) technologies is vital for effective hybrid fault detection systems in PV installations. 
+          IoT devices generate vast streams of real-time operational data, which can be processed by ML algorithms to yield immediate, actionable insights (Lazzaretti et al., 2020; Samkria et al., 2021).
+
+          This creates a continuous feedback loop between the automated system and human operators. 
+          The system flags potential issues in real-time, and operators can quickly validate and respond. 
+          This synergy minimizes the risk of overlooking critical faults and significantly accelerates the response to identified problems, enhancing overall system reliability.
+        - ### 3d19 - Non-Invasive Fault Detection Relies on Human-ML Synergy
+
+          Non-invasive fault detection methods, such as those based on I-V curve analysis, perfectly illustrate the synergy between human operators and advanced ML models. 
+          These techniques allow for the diagnosis of various fault types without requiring significant interruption to the PV system's operation (Huang et al., 2019).
+
+          In this hybrid approach, ML models perform the initial, automated analysis of the I-V curve to detect anomalies. 
+          Human experts can then intervene to analyze and interpret these flagged anomalies, adding a crucial layer of reliability to the diagnostic process without the need for costly and disruptive physical inspections (Khalil et al., 2020).
+
+          Non-invasive fault detection methods, such as those based on I-V curve analysis, perfectly illustrate the synergy between human operators and advanced ML models. 
+          These techniques allow for the diagnosis of various fault types without requiring significant interruption to the PV system's operation (Huang et al., 2019).
+
+          In this hybrid approach, ML models perform the initial, automated analysis of the I-V curve to detect anomalies. 
+          Human experts can then intervene to analyze and interpret these flagged anomalies, adding a crucial layer of reliability to the diagnostic process without the need for costly and disruptive physical inspections (Khalil et al., 2020).
+        - ### 3d20 - Visualization Tools are Essential for Human-ML Collaboration
+
+          For a hybrid human-ML approach to be effective, visualization tools are essential. 
+          These tools play a critical role in translating complex anomaly data and opaque model outputs into intuitive and understandable representations for human operators (Xia et al., 2020).
+
+          Effective visualizations enable stakeholders to quickly grasp fault patterns, make more informed maintenance decisions, and build trust in the automated system. 
+          Furthermore, this interaction creates a powerful feedback loop where operators can validate or correct model findings, which in turn helps to continuously refine both the ML algorithm and the operators' own knowledge base (Dhanraj et al., 2021).
+
+          For a hybrid human-ML approach to be effective, visualization tools are essential. 
+          These tools play a critical role in translating complex anomaly data and opaque model outputs into intuitive and understandable representations for human operators (Xia et al., 2020).
+
+          Effective visualizations enable stakeholders to quickly grasp fault patterns, make more informed maintenance decisions, and build trust in the automated system. 
+          Furthermore, this interaction creates a powerful feedback loop where operators can validate or correct model findings, which in turn helps to continuously refine both the ML algorithm and the operators' own knowledge base (Dhanraj et al., 2021).
     - Concept of Human-in-the-Loop Systems.
         - [[3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults]]
