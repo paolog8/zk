@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
             }
-          },
-          {
-            "id": "fe6c1e57537f5012",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main_Notes/3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8386c0a45136ebd0",
@@ -76,7 +61,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -203,12 +188,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe6c1e57537f5012",
+  "active": "03bc9c15c7fa303d",
   "lastOpenFiles": [
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
+    "Reference_Notes/farzadjafarkazemiOptimumTiltAngle2012.md",
+    "Reference_Notes/elhadiakerFaultDetectionClassification2020.md",
+    "Reference_Notes/dohyungkimExploringTransportBehavior2021.md",
+    "Reference_Notes/azharul-haqModelingFaultCategorization2020.md",
+    "Reference_Notes/ahrens_2022.md",
+    "Reference_Notes/aggarwalOutlierAnalysis2017.md",
+    "Reference_Notes/aggarwalManagingMiningSensor2013.md",
+    "Main_Notes/3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
+    "Reference_Notes/agatonDieselElectricJeepney2019.md",
+    "Inbox/Untitled.md",
+    "Templates/Zotero Template.md",
+    "Inbox/Hadi Pasdarshahri.md",
+    "Templates",
     "_moc_sources_staging.md",
     "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
-    "Main_Notes/3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
     "Inbox/Perovskite Characterization Data Links Material Properties to Device Performance.md",
     "Inbox/Scalable Manufacturing and Humidity Tolerance are Key Foci in Perovskite Synthesis Datasets.md",
@@ -220,21 +218,8 @@
     "MOCs/Staging MOC.md",
     "MOCs/MOC part 1-2 flattened.md",
     "_moc_sources_staging.bak.md",
-    "Main_Notes/4c1a8g - Scarce Labeled Data Drives Adoption of Hybrid Learning in PV Fault Detection.md",
-    "Main_Notes/4b - Grid Infrastructure Bottlenecks Impede Renewable Energy Deployment.md",
-    "Main_Notes/4 - Solar PV Dominates Global Renewable Capacity Growth.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
-    "Main_Notes/4c1a5b2 - Poor ML Interpretability in PV Systems Leads to Inefficient Maintenance.md",
-    "Main_Notes/4c1a14 - Hybrid Models Combine Unsupervised and Supervised Learning for Robust PV Fault Detection.md",
-    "Main_Notes/4c1a8p - Unsupervised ML for PV Fault Detection Overcomes Labeled Data Scarcity.md",
-    "Main_Notes/4c1a8o - Unsupervised Learning Mitigates Labeled Data Scarcity in PV Fault Detection.md",
-    "Main_Notes/4c1a8n - Transfer Learning Mitigates Data Scarcity in PV Fault Detection.md",
-    "Main_Notes/4c1a8i - Scarcity of Labeled Data Impedes PV Fault Detection Model Development.md",
-    "Main_Notes/4c1a8d - Inadequate Training Data Limits ML Model Effectiveness in PV Fault Detection.md",
-    "Main_Notes/4c1a8 - Data Acquisition and Labeling Costs Challenge Supervised ML in PV Fault Detection.md",
-    "Main_Notes/4c1a7b - Proactive Monitoring Enables Predictive Maintenance for PV Systems.md",
     "generate_moc_text.py",
-    "Untitled",
     "concatenated_notes.txt",
     "Untitled.canvas",
     "MOCs",

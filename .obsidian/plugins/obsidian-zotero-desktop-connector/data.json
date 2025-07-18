@@ -2,11 +2,11 @@
   "database": "Zotero",
   "noteImportFolder": "Reference_Notes",
   "pdfExportImageDPI": 120,
-  "pdfExportImageFormat": "jpg",
+  "pdfExportImageFormat": "png",
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "Cite Formatted",
+      "name": "Cite (Author, Year)",
       "format": "formatted-citation",
       "cslStyle": "norsk-apa-manual"
     },
@@ -18,14 +18,18 @@
   ],
   "exportFormats": [
     {
-      "name": "Import #1",
-      "outputPathTemplate": "{{citekey}}.md",
-      "imageOutputPathTemplate": "{{citekey}}/",
-      "imageBaseNameTemplate": "image"
+      "name": "Import Zotero",
+      "outputPathTemplate": "Reference_Notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "Reference_Notes/Images/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Templates/Zotero Template.md",
+      "cslStyle": "norsk-apa-manual"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": true,
   "whichNotesToOpenAfterImport": "all-imported-notes",
-  "shouldConcat": true
+  "shouldConcat": true,
+  "pdfExportImageOCR": true,
+  "pdfExportImageTesseractPath": "/usr/bin/tesseract"
 }
