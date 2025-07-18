@@ -370,4 +370,9 @@
           Effective visualizations enable stakeholders to quickly grasp fault patterns, make more informed maintenance decisions, and build trust in the automated system. 
           Furthermore, this interaction creates a powerful feedback loop where operators can validate or correct model findings, which in turn helps to continuously refine both the ML algorithm and the operators' own knowledge base (Dhanraj et al., 2021).
     - Concept of Human-in-the-Loop Systems.
-        - [[3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults]]
+        - ### 3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults
+          Fully automated fault detection in PV systems is complicated by the nuances of operational data. 
+          Purely automated ML models can struggle to distinguish true faults from complex operational variations or sensor noise, necessitating human intervention.
+          
+          A "human-in-the-loop" approach, where an expert validates the findings of the ML model, is often required to ensure accuracy (Ghazali & Sujod, 2022). 
+          While this improves reliability, it hinders full automation and can slow down the fault management process, reducing overall system efficiency.

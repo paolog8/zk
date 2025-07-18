@@ -10,10 +10,6 @@
     
     - **Query:** "What is the current certified record efficiency for single-junction and tandem perovskite solar cells?"
         
-- **Key Degradation Pathways in Perovskites**
-    
-    - **Query:** "Summarize the primary intrinsic and extrinsic degradation mechanisms in perovskite solar cells under operational stress."
-        
 - **The Data Gap in Photovoltaics Research**
     
     - **Query:** "Discuss the lack of standardized, publicly available datasets that link perovskite fabrication parameters to real-world performance."
@@ -30,9 +26,6 @@
     
     - **Query:** "Find examples of project scope descriptions in papers that introduce a new public dataset."
         
-- **Target Journal: Scientific Data**
-    
-    - **Query:** "What is the scope and mission of the 'Scientific Data' journal?"
         
 
 ## 3 Methods
@@ -70,7 +63,7 @@
     
     - **Query:** "Discuss the impact of scan direction, scan rate, and preconditioning on J-V curve measurements of perovskite solar cells."
         
-- **Indoor Accelerated Aging Protocols**
+- **Indoor  Aging Protocols**
     
     - **Query:** "Summarize the ISOS-L-1I protocol and other common indoor accelerated aging tests for perovskite solar cell stability."
         
@@ -78,11 +71,6 @@
     
     - **Query:** "Review methodologies and best practices for outdoor testing of perovskite solar cell stability and performance."
         
-- **Co-located Weather Station Data**
-    
-    - **Query:** "What meteorological parameters are most important to measure alongside outdoor PV performance data?"
-        
-
 ### 3.3 Data Acquisition and Management
 
 - **The NOMAD Oasis Data Platform**
@@ -119,14 +107,6 @@
 
 ## 5 Technical Validation
 
-- **Use of Reference Cells and Controls**
-    
-    - **Query:** "Methods for using reference cells and control samples to ensure data quality and reproducibility in photovoltaic research."
-        
-- **Instrument Calibration**
-    
-    - **Query:** "What are the standard calibration procedures for solar simulators and pyranometers used in PV testing?"
-        
 - **Data Completeness and Consistency Checks**
     
     - **Query:** "Discuss computational methods for validating the completeness and consistency of large experimental datasets."
@@ -142,10 +122,6 @@
 
 ## 6 Usage Notes & Future Analysis
 
-- **Guidance on Linking Data Files**
-    
-    - **Query:** "Find examples of data usage notes that explain how to link multi-modal datasets using sample identifiers."
-        
 - **Correlation Analysis: Lab-to-Rooftop**
     
     - **Query:** "Identify studies that perform correlation analysis between perovskite solar cell fabrication parameters and outdoor performance metrics."
@@ -153,10 +129,6 @@
 - **Building Predictive Machine Learning Models**
     
     - **Query:** "Review the use of machine learning to predict perovskite solar cell stability and lifetime from laboratory data."
-        
-- **Validating Physics-Based Degradation Models**
-    
-    - **Query:** "How has high-resolution outdoor performance data been used to validate physics-based degradation models for solar cells?"
         
 - **Limitations of the Dataset**
     
@@ -191,5 +163,9 @@
 - **Keywords**
     
     - **Query:** "Identify common and high-impact keywords for papers on perovskite solar cells, FAIR data, and outdoor stability."
-        
+
+- **Target Journal: Scientific Data**
+    
+    - **Query:** "What is the scope and mission of the 'Scientific Data' journal?"
+
 

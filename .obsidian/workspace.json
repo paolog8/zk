@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant"
             }
+          },
+          {
+            "id": "fe6c1e57537f5012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main_Notes/3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8386c0a45136ebd0",
@@ -33,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
+                "file": "_moc_sources_staging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Lab2Rooftop Perovskite Solar Cell Data Initiative"
+              "title": "_moc_sources_staging"
             }
           }
         ]
@@ -188,16 +203,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03bc9c15c7fa303d",
+  "active": "fe6c1e57537f5012",
   "lastOpenFiles": [
-    "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
+    "_moc_sources_staging.md",
     "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
+    "Main_Notes/3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
     "Inbox/Perovskite Characterization Data Links Material Properties to Device Performance.md",
     "Inbox/Scalable Manufacturing and Humidity Tolerance are Key Foci in Perovskite Synthesis Datasets.md",
     "Inbox/Fragmented Datasets Hinder Holistic Perovskite Solar Cell Optimization.md",
     "Inbox/Perovskite Solar Cell Development Follows a Four-Phase Research Cycle.md",
-    "_moc_sources_staging.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "_moc_sources_staging 1.md",
     "_moc_sources_staging.md.bak",
     "Main_Notes/4c1a3b - Sensor Fusion.md",
@@ -217,7 +233,6 @@
     "Main_Notes/4c1a8d - Inadequate Training Data Limits ML Model Effectiveness in PV Fault Detection.md",
     "Main_Notes/4c1a8 - Data Acquisition and Labeling Costs Challenge Supervised ML in PV Fault Detection.md",
     "Main_Notes/4c1a7b - Proactive Monitoring Enables Predictive Maintenance for PV Systems.md",
-    "Main_Notes/4d1a2 - Undetected PV Faults Cause Economic Losses by Reducing Energy Yield.md",
     "generate_moc_text.py",
     "Untitled",
     "concatenated_notes.txt",
