@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Staging MOC.md",
+                "file": "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Staging MOC"
             }
-          },
-          {
-            "id": "cddeed2689faf093",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Question driven exploration with a ZK - Gemini.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Question driven exploration with a ZK - Gemini"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bore",
+                "query": "\"A fault detection method for photovoltaic systems based on voltage and current observation and evaluation\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -156,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Question driven exploration with a ZK - Gemini.md",
+                "file": "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Question driven exploration with a ZK - Gemini"
+              "title": "Outline of Staging MOC"
             }
           }
         ],
@@ -183,12 +168,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cddeed2689faf093",
+  "active": "a1fc9754a0882757",
   "lastOpenFiles": [
-    "MOCs/Staging MOC.md",
+    "MOCs/Human-in-the-loop_BORE/references-What_are_the_consequences_of_undetected_faults_in_PV_systems_related_to_system_health_and_reliability_3F.bib",
+    "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_transforming_anomaly_scores_to_meaningful_fault_classification.bib",
+    "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_crucial_role_of_domain_expert_feedback.bib",
+    "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_concept_of_human_in_the_loop_systems.bib",
+    "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_semi-supervised_learning_2C_leveraging_unlabeled_data__28abundance_29_and_limited_labeled_data__28specificity_29.bib",
+    "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_need_for_methods_bridging_data_scarcity_and_demand_for_actionable_fault_diagnostics.bib",
+    "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection supervised methods, challenges in data acquisition and labeling cost.bib",
+    "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection supervised methods require extensive labeled data.bib",
+    "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection purely unsupervised models, strengths in anomaly detection.bib",
+    "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection purely unsupervised models, problem of distinguishing critical faults versus normal variations.bib",
+    "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection purely unsupervised models, limitations in fault interpretability and fault type classification.bib",
+    "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
+    "MOCs/Human-in-the-loop_BORE/MOC part 1-2 flattened.md",
+    "MOCs/Human-in-the-loop_BORE/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Main_Notes/4d - Open-Circuit and Shading Faults Lead to Significant Power Loss in PV Systems.md",
+    "Main_Notes/3d - Expert Input is Crucial for Fault Detection in Large-Scale PV Systems.md",
     "Inbox/Question driven exploration with a ZK - Gemini.md",
-    "MOCs/MOC part 1-2 flattened.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Main_Notes/4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
     "Main_Notes/4c1a2 - BORE Addresses Key Challenges in PV Fault Detection Systems.md",
     "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
@@ -206,21 +204,8 @@
     "Reference_Notes/agatonDieselElectricJeepney2019.md",
     "Inbox/Untitled.md",
     "Inbox/Hadi Pasdarshahri.md",
-    "Templates",
     "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
     "Inbox/Perovskite Characterization Data Links Material Properties to Device Performance.md",
-    "Inbox/Scalable Manufacturing and Humidity Tolerance are Key Foci in Perovskite Synthesis Datasets.md",
-    "Inbox/Fragmented Datasets Hinder Holistic Perovskite Solar Cell Optimization.md",
-    "Inbox/Perovskite Solar Cell Development Follows a Four-Phase Research Cycle.md",
-    "_moc_sources_staging.md.bak",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
-    "generate_moc_text.py",
-    "concatenated_notes.txt",
-    "Untitled.canvas",
-    "MOCs",
-    "Inbox",
-    "Reference_Notes/My Library.bib",
-    "Reference_Notes/Zotero_Library.bib",
-    "ZoteroLibrary.bib"
+    "Untitled.canvas"
   ]
 }
