@@ -1,0 +1,1 @@
+[[jaskie_2021]] presents an alternative method for using few labels for PV fault detection. But in their other paper [[kristenjaskiePVFAULTDETECTION2020]] they also admit that the features they use are not available in many real world cases. What is the use of their method then?

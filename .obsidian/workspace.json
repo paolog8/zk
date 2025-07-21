@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Staging MOC"
             }
+          },
+          {
+            "id": "6a87fea31d6beb00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main_Notes/3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"A fault detection method for photovoltaic systems based on voltage and current observation and evaluation\"",
+                "query": "jaskie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
+                "file": "Main_Notes/3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Staging MOC"
+              "title": "Outline of 3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection"
             }
           }
         ],
@@ -168,8 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1fc9754a0882757",
+  "active": "6a87fea31d6beb00",
   "lastOpenFiles": [
+    "Inbox/Untitled 1.md",
+    "Reference_Notes/kristenjaskiePVFAULTDETECTION2020.md",
+    "Reference_Notes/jaskie_2021.md",
+    "Templates/Zotero Template.md",
+    "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
     "MOCs/Human-in-the-loop_BORE/references-What_are_the_consequences_of_undetected_faults_in_PV_systems_related_to_system_health_and_reliability_3F.bib",
     "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_transforming_anomaly_scores_to_meaningful_fault_classification.bib",
     "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_crucial_role_of_domain_expert_feedback.bib",
@@ -180,8 +201,6 @@
     "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection supervised methods require extensive labeled data.bib",
     "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection purely unsupervised models, strengths in anomaly detection.bib",
     "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection purely unsupervised models, problem of distinguishing critical faults versus normal variations.bib",
-    "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection purely unsupervised models, limitations in fault interpretability and fault type classification.bib",
-    "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
     "MOCs/Human-in-the-loop_BORE/MOC part 1-2 flattened.md",
     "MOCs/Human-in-the-loop_BORE/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Main_Notes/4d - Open-Circuit and Shading Faults Lead to Significant Power Loss in PV Systems.md",
@@ -190,7 +209,6 @@
     "Main_Notes/4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
     "Main_Notes/4c1a2 - BORE Addresses Key Challenges in PV Fault Detection Systems.md",
     "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
-    "Templates/Zotero Template.md",
     "_moc_sources_staging.md",
     "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
     "Reference_Notes/farzadjafarkazemiOptimumTiltAngle2012.md",
@@ -204,8 +222,6 @@
     "Reference_Notes/agatonDieselElectricJeepney2019.md",
     "Inbox/Untitled.md",
     "Inbox/Hadi Pasdarshahri.md",
-    "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
-    "Inbox/Perovskite Characterization Data Links Material Properties to Device Performance.md",
     "Untitled.canvas"
   ]
 }
