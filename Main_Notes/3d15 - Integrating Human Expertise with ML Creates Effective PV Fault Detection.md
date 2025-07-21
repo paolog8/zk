@@ -1,7 +1,8 @@
 Tags: #HybridModels, #HumanInTheLoop, #PVFaultDetection
 
 A hybrid approach that balances machine learning (ML) automation with human expertise is crucial for designing efficient and accurate diagnostic tools for photovoltaic (PV) systems. 
-Faults like shading or degradation can cause significant efficiency losses, making reliable detection essential (Jaskie et al., 2021) TODO Actual reference is from another paper, this is only mentioned here.
+Faults like shading or degradation can cause significant efficiency losses, making reliable detection essential (Jaskie et al., 2021)
+( actual reference is \citep[]{lillo-bravoImpactEnergyLosses2018})
 
 While ML models offer powerful automation, human operators provide invaluable insights and contextual knowledge. 
 This synergy is necessary for creating robust diagnostic frameworks that can accurately assess the state of PV systems under the diverse and dynamic conditions found in real-world operations.
