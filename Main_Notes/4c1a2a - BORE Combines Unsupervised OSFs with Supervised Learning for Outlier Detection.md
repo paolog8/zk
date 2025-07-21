@@ -1,4 +1,6 @@
-BORE, or Bagged Outlier Representation Ensemble, is an outlier detection framework that combines unsupervised outlier scoring functions (OSFs) with a supervised learning approach. It is designed to address challenges like inherent class imbalance and the detection of novel types of outliers. The framework operates by training a classifier on a rich, non-linear feature representation derived from diverse OSF outputs.
+BORE, or Bagged Outlier Representation Ensemble, is an outlier detection framework that combines unsupervised outlier scoring functions (OSFs) with a supervised learning approach. 
+It is designed to address challenges like inherent class imbalance and the detection of novel types of outliers.
+The framework operates by training a classifier on a rich, non-linear feature representation derived from diverse OSF outputs.
 
 ### Sources:
 \citep{micenkovaLearningRepresentationsOutlier2015}

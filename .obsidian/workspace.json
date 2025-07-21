@@ -11,10 +11,14 @@
             "id": "382162101c1c4338",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Staging MOC.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Staging MOC"
             }
           }
         ]
@@ -49,10 +53,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bore",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.51103591918945
+    "width": 511.5
   },
   "right": {
     "id": "0adf995372bac3e5",
@@ -137,21 +141,21 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "MOCs/Staging MOC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Staging MOC"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,9 +170,13 @@
   },
   "active": "382162101c1c4338",
   "lastOpenFiles": [
+    "MOCs/MOC part 1-2 flattened.md",
+    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
+    "Main_Notes/4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
+    "Main_Notes/4c1a2 - BORE Addresses Key Challenges in PV Fault Detection Systems.md",
+    "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
     "Templates/Zotero Template.md",
     "_moc_sources_staging.md",
-    "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Reference_Notes/micenkovaLearningRepresentationsOutlier2015.md",
     "Reference_Notes/farzadjafarkazemiOptimumTiltAngle2012.md",
     "Reference_Notes/elhadiakerFaultDetectionClassification2020.md",
@@ -182,7 +190,6 @@
     "Inbox/Untitled.md",
     "Inbox/Hadi Pasdarshahri.md",
     "Templates",
-    "Inbox/The Lab2Rooftop Perovskite Solar Cell Data Initiative.md",
     "Inbox/Outdoor Testing Provides Real-World Performance and Reliability Data for Perovskites.md",
     "Inbox/Perovskite Characterization Data Links Material Properties to Device Performance.md",
     "Inbox/Scalable Manufacturing and Humidity Tolerance are Key Foci in Perovskite Synthesis Datasets.md",
@@ -191,9 +198,6 @@
     "_moc_sources_staging 1.md",
     "_moc_sources_staging.md.bak",
     "Main_Notes/4c1a3b - Sensor Fusion.md",
-    "MOCs/Staging MOC.md",
-    "MOCs/MOC part 1-2 flattened.md",
-    "_moc_sources_staging.bak.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
     "generate_moc_text.py",
     "concatenated_notes.txt",
