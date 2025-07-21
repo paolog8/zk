@@ -23,6 +23,11 @@ authors:
 {% endif %}
 
 CiteKey: {{citationKey}}
+{% if DOI %}
 DOI: [{{DOI}}]({{DOI}})
+{% endif %}
+{% if url %}
+URL: [{{url}}]({{url}})
+{% endif %}
 [Zotero Link]({{select}})
 
