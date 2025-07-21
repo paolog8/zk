@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Staging MOC"
             }
+          },
+          {
+            "id": "cddeed2689faf093",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Question driven exploration with a ZK - Gemini.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Question driven exploration with a ZK - Gemini"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Staging MOC.md",
+                "file": "Inbox/Question driven exploration with a ZK - Gemini.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Staging MOC"
+              "title": "Outline of Question driven exploration with a ZK - Gemini"
             }
           }
         ],
@@ -168,8 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "382162101c1c4338",
+  "active": "cddeed2689faf093",
   "lastOpenFiles": [
+    "MOCs/Staging MOC.md",
+    "Inbox/Question driven exploration with a ZK - Gemini.md",
     "MOCs/MOC part 1-2 flattened.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
     "Main_Notes/4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
@@ -195,9 +212,7 @@
     "Inbox/Scalable Manufacturing and Humidity Tolerance are Key Foci in Perovskite Synthesis Datasets.md",
     "Inbox/Fragmented Datasets Hinder Holistic Perovskite Solar Cell Optimization.md",
     "Inbox/Perovskite Solar Cell Development Follows a Four-Phase Research Cycle.md",
-    "_moc_sources_staging 1.md",
     "_moc_sources_staging.md.bak",
-    "Main_Notes/4c1a3b - Sensor Fusion.md",
     "MOCs/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md.bak",
     "generate_moc_text.py",
     "concatenated_notes.txt",
