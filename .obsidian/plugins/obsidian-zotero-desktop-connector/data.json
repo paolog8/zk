@@ -6,6 +6,10 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
+      "name": "Format pandoc",
+      "format": "formatted-citation"
+    },
+    {
       "name": "Cite (Author, Year)",
       "format": "formatted-citation",
       "cslStyle": "norsk-apa-manual"

@@ -4,39 +4,118 @@
     "type": "split",
     "children": [
       {
-        "id": "e1ae40a87b620bca",
-        "type": "tabs",
+        "id": "d075c782748e8188",
+        "type": "split",
         "children": [
           {
-            "id": "382162101c1c4338",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
-                "mode": "source",
-                "source": false
+            "id": "e1ae40a87b620bca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6a87fea31d6beb00",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Main_Notes/3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Staging MOC"
-            }
+              {
+                "id": "3f00d8b9a6385824",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Inbox/Untitled 2.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Untitled 2"
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "6a87fea31d6beb00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main_Notes/3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection.md",
-                "mode": "source",
-                "source": false
+            "id": "0bbbafcf52aec589",
+            "type": "split",
+            "children": [
+              {
+                "id": "8cfd9da8ae083292",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "2a583ef2a287b38e",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Inbox/Untitled 2.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Untitled 2"
+                    }
+                  },
+                  {
+                    "id": "65efa9abce778884",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Inbox/Failure in a PV system as defined in the literature.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Failure in a PV system as defined in the literature"
+                    }
+                  },
+                  {
+                    "id": "8a2425d0afca8e46",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Inbox/Inefficiency.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "Inefficiency"
+                    }
+                  }
+                ],
+                "currentTab": 1
               },
-              "icon": "lucide-file",
-              "title": "3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection"
-            }
+              {
+                "id": "19b77e01493b5907",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "b3d95b6834a4e938",
+                    "type": "leaf",
+                    "state": {
+                      "type": "zdc-debug",
+                      "state": {},
+                      "icon": "gear",
+                      "title": "Zotero Data Explorer"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -89,8 +168,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,17 +188,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/Failure in a PV system as defined in the literature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Failure in a PV system as defined in the literature"
             }
           },
           {
@@ -157,17 +235,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Main_Notes/3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection.md",
+                "file": "Inbox/Failure in a PV system as defined in the literature.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection"
+              "title": "Outline of Failure in a PV system as defined in the literature"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,13 +261,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a87fea31d6beb00",
+  "active": "65efa9abce778884",
   "lastOpenFiles": [
+    "Reference_Notes/lillo-bravoImpactEnergyLosses2018.md",
+    "Inbox/Untitled 2.md",
+    "Inbox/Failure in a PV system as defined in the literature.md",
+    "Templates/Zotero Template.md",
+    "Inbox/Inefficiency.md",
+    "Main_Notes/3d15 - Integrating Human Expertise with ML Creates Effective PV Fault Detection.md",
+    "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
+    "Templates/Zotero Template with Notes.md",
+    "Workflow.md",
     "Inbox/Untitled 1.md",
     "Reference_Notes/kristenjaskiePVFAULTDETECTION2020.md",
     "Reference_Notes/jaskie_2021.md",
-    "Templates/Zotero Template.md",
-    "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
     "MOCs/Human-in-the-loop_BORE/references-What_are_the_consequences_of_undetected_faults_in_PV_systems_related_to_system_health_and_reliability_3F.bib",
     "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_transforming_anomaly_scores_to_meaningful_fault_classification.bib",
     "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_crucial_role_of_domain_expert_feedback.bib",
@@ -215,13 +299,6 @@
     "Reference_Notes/elhadiakerFaultDetectionClassification2020.md",
     "Reference_Notes/dohyungkimExploringTransportBehavior2021.md",
     "Reference_Notes/azharul-haqModelingFaultCategorization2020.md",
-    "Reference_Notes/ahrens_2022.md",
-    "Reference_Notes/aggarwalOutlierAnalysis2017.md",
-    "Reference_Notes/aggarwalManagingMiningSensor2013.md",
-    "Main_Notes/3d11 - Human-in-the-Loop is Often Necessary for Validating PV Faults.md",
-    "Reference_Notes/agatonDieselElectricJeepney2019.md",
-    "Inbox/Untitled.md",
-    "Inbox/Hadi Pasdarshahri.md",
     "Untitled.canvas"
   ]
 }

@@ -3,5 +3,6 @@
   "file-preview",
   "file-explorer-note-count",
   "remember-cursor-position",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-pandoc"
 ]

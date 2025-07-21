@@ -29,3 +29,11 @@ URL: {{url}}
 ### Abstract
 {{abstractNote}}
 {% endif %}
+
+%%{% persist "notes" %} {% if notes%}
+ ### Notes
+{% for noteItem in notes %}
+{{noteItem.note}}
+{% endfor %}
+{% endif %}
+{% endpersist %} %%
