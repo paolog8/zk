@@ -11,10 +11,14 @@
             "id": "d4ebbfe57ff7fa64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/From Data to Wisdom.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "From Data to Wisdom"
             }
           }
         ]
@@ -136,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Inbox/From Data to Wisdom.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of From Data to Wisdom"
             }
           }
         ],
@@ -162,8 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1fc9754a0882757",
+  "active": "d4ebbfe57ff7fa64",
   "lastOpenFiles": [
+    "Inbox/Hard is better that easy.md",
+    "Inbox/Deliberate Practice.md",
+    "Inbox/Simplify.md",
     "Inbox/Scite_ strategy to understand papers.md",
     "Index.md",
     "Main_Notes/3 - Experts use tools approprately.md",
@@ -197,9 +205,6 @@
     "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection supervised methods, challenges in data acquisition and labeling cost.bib",
     "MOCs/Human-in-the-loop_BORE/references-Specific challenges of traditional ML approaches to pv fault detection supervised methods require extensive labeled data.bib",
     "MOCs/Human-in-the-loop_BORE/MOC part 1-2 flattened.md",
-    "MOCs/Human-in-the-loop_BORE/Human-in-the-loop Semi-Supervised Ensemble Learning for Fault Detection in Photovoltaic Systems - Application to a Real-World Power Plant.md",
-    "Main_Notes/AI_generated/4d - Open-Circuit and Shading Faults Lead to Significant Power Loss in PV Systems.md",
-    "Main_Notes/AI_generated/4c1a2a - BORE Combines Unsupervised OSFs with Supervised Learning for Outlier Detection.md",
     "Untitled.canvas"
   ]
 }
