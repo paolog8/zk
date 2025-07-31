@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/From Data to Wisdom.md",
+                "file": "Main_Notes/5 - Pyramids.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "From Data to Wisdom"
+              "title": "5 - Pyramids"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/From Data to Wisdom.md",
+                "file": "Main_Notes/5 - Pyramids.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of From Data to Wisdom"
+              "title": "Outline of 5 - Pyramids"
             }
           }
         ],
@@ -169,6 +169,14 @@
   },
   "active": "d4ebbfe57ff7fa64",
   "lastOpenFiles": [
+    "Main_Notes/3d - Pyramids.md",
+    "Main_Notes/5 - Pyramids.md",
+    "Main_Notes/4 - Energy yield of a solar plant decreases because of failures and inefficiencies.md",
+    "Main_Notes/3 - Experts use tools approprately.md",
+    "Inbox/3d - Pyramids.md",
+    "Main_Notes/3b - Reading intent is based on your expertise level.md",
+    "Inbox/Pyramids.md",
+    "Inbox/From Data to Wisdom.md",
     "Inbox/Productivity levels.md",
     "Inbox/Practice how you play.md",
     "Inbox/Hard is better that easy.md",
@@ -176,9 +184,7 @@
     "Inbox/Simplify.md",
     "Inbox/Scite_ strategy to understand papers.md",
     "Index.md",
-    "Main_Notes/3 - Experts use tools approprately.md",
     "Main_Notes/1 - Writing down ideas gives them substance.md",
-    "Main_Notes/4 - Energy yield of a solar plant decreases because of failures and inefficiencies.md",
     "Main_Notes/AI_generated/3d - Expert Input is Crucial for Fault Detection in Large-Scale PV Systems.md",
     "Inbox/Question driven exploration with a ZK - Gemini.md",
     "Main_Notes/AI_generated",
@@ -190,13 +196,7 @@
     "Inbox/Failures and Inefficiencies in PV plants.md",
     "Inbox/Causes of energy losses in PV plants.md",
     "Inbox/Inefficiency in a PV system as defined in the literature.md",
-    "Inbox/in a PV system as defined in the literature.md",
     "Inbox/Failure in a PV system as defined in the literature.tex",
-    "Reference_Notes/lillo-bravoImpactEnergyLosses2018.md",
-    "Templates/Zotero Template.md",
-    "MOCs/Human-in-the-loop_BORE/Staging MOC.md",
-    "Templates/Zotero Template with Notes.md",
-    "Workflow.md",
     "MOCs/Human-in-the-loop_BORE/references-What_are_the_consequences_of_undetected_faults_in_PV_systems_related_to_system_health_and_reliability_3F.bib",
     "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_transforming_anomaly_scores_to_meaningful_fault_classification.bib",
     "MOCs/Human-in-the-loop_BORE/references-The_need_for_hybrid_approaches_in_ML_based_PV_fault_detection_3A_value_of_human_expertise_2C_crucial_role_of_domain_expert_feedback.bib",
